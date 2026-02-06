@@ -25,9 +25,10 @@ class LineMarkupDetector:
     
     def __init__(self, 
                  angle_tolerance: float = 5.0,
-                 min_line_length: int = 20,
+                 min_line_length: int = 30,  # Balanced: not too strict, not too loose
                  max_line_gap: int = 10,
-                 line_thickness_range: Tuple[int, int] = (1, 5)):
+                 line_thickness_range: Tuple[int, int] = (1, 5),
+                 min_confidence: float = 0.5):  # Lower threshold for better recall
         """
         Args:
             angle_tolerance: Maximum deviation from horizontal (degrees)
@@ -39,6 +40,7 @@ class LineMarkupDetector:
         self.min_line_length = min_line_length
         self.max_line_gap = max_line_gap
         self.line_thickness_range = line_thickness_range
+        self.min_confidence = min_confidence
         
     def detect(self, image: np.ndarray, 
                text_bboxes: Optional[List[Tuple[int, int, int, int]]] = None) -> List[LineMarkup]:
@@ -78,6 +80,9 @@ class LineMarkupDetector:
         
         # Classify as underline or strikethrough based on text proximity
         markups = self._classify_lines(horizontal_lines, text_bboxes, gray.shape)
+        
+        # Filter by confidence threshold
+        markups = [m for m in markups if m.confidence >= self.min_confidence]
         
         # Detect double lines
         markups = self._detect_double_lines(markups)

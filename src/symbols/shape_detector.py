@@ -25,10 +25,11 @@ class ShapeDetector:
     """Detect shape-based markups (circles, boxes, stars, checks)"""
     
     def __init__(self,
-                 min_area: int = 100,
+                 min_area: int = 500,  # Increased from 100 to reduce FP
                  max_area: int = 10000,
                  circularity_threshold: float = 0.85,
-                 rectangularity_threshold: float = 0.85):
+                 rectangularity_threshold: float = 0.85,
+                 min_confidence: float = 0.65):  # New: minimum confidence threshold
         """
         Args:
             min_area: Minimum contour area in pixels
@@ -40,6 +41,7 @@ class ShapeDetector:
         self.max_area = max_area
         self.circularity_threshold = circularity_threshold
         self.rectangularity_threshold = rectangularity_threshold
+        self.min_confidence = min_confidence
         
     def detect(self, image: np.ndarray) -> List[ShapeMarkup]:
         """
@@ -89,7 +91,7 @@ class ShapeDetector:
             # Try to classify shape
             shape_type, confidence, properties = self._classify_shape(contour, area)
             
-            if shape_type is not None and confidence > 0.5:
+            if shape_type is not None and confidence >= self.min_confidence:
                 markup = ShapeMarkup(
                     shape_type=shape_type,
                     bbox=(x, y, w, h),
