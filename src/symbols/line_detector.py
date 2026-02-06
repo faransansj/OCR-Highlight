@@ -67,7 +67,7 @@ class LineMarkupDetector:
             edges,
             rho=1,
             theta=np.pi/180,
-            threshold=50,
+            threshold=80,  # Increased from 50 to reduce duplicates
             minLineLength=self.min_line_length,
             maxLineGap=self.max_line_gap
         )
