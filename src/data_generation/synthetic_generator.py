@@ -269,16 +269,16 @@ class SyntheticDataGenerator:
     def _add_underline(self, img: np.ndarray, x: int, y: int, w: int, h: int, text: str) -> MarkupAnnotation:
         """Add underline markup"""
         line_type = random.choice(['single', 'double'])
-        color = (0, 0, 0)
-        thickness = 2
+        color = (0, 0, 255)  # Red for better visibility
+        thickness = 3  # Thicker for clearer detection
         
-        y_line = y + h + 5
+        y_line = y + h + 8  # More spacing from text
         
         if line_type == 'single':
             cv2.line(img, (x, y_line), (x + w, y_line), color, thickness)
         else:  # double
             cv2.line(img, (x, y_line), (x + w, y_line), color, thickness)
-            cv2.line(img, (x, y_line + 4), (x + w, y_line + 4), color, thickness)
+            cv2.line(img, (x, y_line + 6), (x + w, y_line + 6), color, thickness)
         
         return MarkupAnnotation(
             markup_type='underline',
@@ -312,9 +312,9 @@ class SyntheticDataGenerator:
         """Add circle markup around text"""
         center_x = x + w // 2
         center_y = y + h // 2
-        radius = max(w, h) // 2 + 10
+        radius = max(w, h) // 2 + 15  # Larger radius for clearer detection
         color = (255, 0, 0)  # Blue
-        thickness = 2
+        thickness = 3  # Thicker lines
         
         cv2.circle(img, (center_x, center_y), radius, color, thickness)
         
@@ -327,9 +327,9 @@ class SyntheticDataGenerator:
     
     def _add_rectangle(self, img: np.ndarray, x: int, y: int, w: int, h: int, text: str) -> MarkupAnnotation:
         """Add rectangle markup around text"""
-        padding = 10
+        padding = 15  # More padding for clearer separation
         color = (0, 255, 0)  # Green
-        thickness = 2
+        thickness = 3  # Thicker lines
         
         cv2.rectangle(img, (x - padding, y - padding), 
                      (x + w + padding, y + h + padding), color, thickness)

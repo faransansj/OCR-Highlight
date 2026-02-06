@@ -1,0 +1,1011 @@
+{
+  "total_samples": 100,
+  "languages": [
+    "chi_sim",
+    "jpn",
+    "eng",
+    "kor"
+  ],
+  "samples": [
+    {
+      "image_path": "test_results/improved_test/sample_000000_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 0
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000001_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 1
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000002_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 2
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000003_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 3
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000004_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 4
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000005_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 5
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000006_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 6
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000007_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 7
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000008_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 8
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000009_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 9
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000010_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 10
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000011_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 11
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000012_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 12
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000013_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 13
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000014_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 14
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000015_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 15
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000016_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 16
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000017_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 17
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000018_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 18
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000019_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 19
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000020_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 20
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000021_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 21
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000022_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 22
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000023_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 23
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000024_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 24
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000025_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 25
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000026_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 26
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000027_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 27
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000028_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 28
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000029_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 29
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000030_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 30
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000031_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 31
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000032_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 32
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000033_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 33
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000034_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 34
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000035_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 35
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000036_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 36
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000037_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 37
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000038_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 38
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000039_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 39
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000040_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 40
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000041_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 41
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000042_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 42
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000043_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 43
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000044_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 44
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000045_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 45
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000046_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 46
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000047_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 47
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000048_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 48
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000049_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 49
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000050_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 50
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000051_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 51
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000052_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 52
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000053_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 53
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000054_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 54
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000055_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 55
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000056_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 56
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000057_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 57
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000058_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 58
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000059_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 59
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000060_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 60
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000061_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 61
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000062_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 62
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000063_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 63
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000064_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 64
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000065_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 65
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000066_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 66
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000067_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 67
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000068_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 68
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000069_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 69
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000070_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 70
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000071_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 71
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000072_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 72
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000073_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 73
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000074_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 74
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000075_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 75
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000076_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 76
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000077_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 77
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000078_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 78
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000079_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 79
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000080_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 80
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000081_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 81
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000082_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 82
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000083_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 83
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000084_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 84
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000085_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 85
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000086_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 86
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000087_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 87
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000088_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 88
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000089_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 89
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000090_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 90
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000091_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 91
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000092_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 92
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000093_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 93
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000094_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 94
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000095_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 95
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000096_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 96
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000097_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 97
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000098_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 98
+      }
+    },
+    {
+      "image_path": "test_results/improved_test/sample_000099_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 99
+      }
+    }
+  ]
+}
