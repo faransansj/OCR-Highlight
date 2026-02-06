@@ -1,0 +1,23 @@
+{
+  "image_path": "test_results/generator_test/sample_000712_eng.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        40,
+        16,
+        320,
+        320
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 1,
+    "index": 712
+  }
+}

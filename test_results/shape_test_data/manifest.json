@@ -1,0 +1,2011 @@
+{
+  "total_samples": 200,
+  "languages": [
+    "chi_sim",
+    "kor",
+    "eng",
+    "jpn"
+  ],
+  "samples": [
+    {
+      "image_path": "test_results/shape_test_data/sample_000000_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 0
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000001_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 1
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000002_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 2
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000003_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 3
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000004_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 4
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000005_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 5
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000006_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 6
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000007_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 7
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000008_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 8
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000009_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 9
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000010_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 10
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000011_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 11
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000012_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 12
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000013_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 13
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000014_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 14
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000015_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 15
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000016_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 16
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000017_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 17
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000018_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 18
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000019_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 19
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000020_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 20
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000021_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 21
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000022_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 22
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000023_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 23
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000024_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 24
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000025_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 25
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000026_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 26
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000027_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 27
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000028_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 28
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000029_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 29
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000030_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 30
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000031_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 31
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000032_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 32
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000033_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 33
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000034_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 34
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000035_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 35
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000036_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 36
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000037_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 37
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000038_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 38
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000039_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 39
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000040_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 40
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000041_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 41
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000042_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 42
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000043_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 43
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000044_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 44
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000045_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 45
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000046_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 46
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000047_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 47
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000048_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 48
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000049_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 49
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000050_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 50
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000051_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 51
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000052_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 52
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000053_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 53
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000054_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 54
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000055_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 55
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000056_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 56
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000057_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 57
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000058_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 58
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000059_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 59
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000060_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 60
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000061_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 61
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000062_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 62
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000063_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 63
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000064_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 64
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000065_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 65
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000066_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 66
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000067_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 67
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000068_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 68
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000069_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 69
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000070_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 70
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000071_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 71
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000072_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 72
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000073_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 73
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000074_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 74
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000075_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 75
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000076_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 76
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000077_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 77
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000078_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 78
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000079_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 79
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000080_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 80
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000081_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 81
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000082_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 82
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000083_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 83
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000084_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 84
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000085_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 85
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000086_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 86
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000087_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 87
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000088_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 88
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000089_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 89
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000090_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 90
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000091_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 91
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000092_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 92
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000093_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 93
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000094_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 94
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000095_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 95
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000096_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 96
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000097_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 97
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000098_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 98
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000099_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 99
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000100_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 100
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000101_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 101
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000102_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 102
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000103_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 103
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000104_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 104
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000105_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 105
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000106_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 106
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000107_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 107
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000108_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 108
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000109_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 109
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000110_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 110
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000111_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 111
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000112_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 112
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000113_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 113
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000114_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 114
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000115_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 115
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000116_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 116
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000117_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 117
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000118_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 118
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000119_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 119
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000120_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 120
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000121_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 121
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000122_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 122
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000123_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 123
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000124_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 124
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000125_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 125
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000126_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 126
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000127_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 127
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000128_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 128
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000129_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 129
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000130_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 130
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000131_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 131
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000132_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 132
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000133_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 133
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000134_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 134
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000135_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 135
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000136_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 136
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000137_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 137
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000138_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 138
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000139_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 139
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000140_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 140
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000141_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 141
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000142_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 142
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000143_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 143
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000144_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 144
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000145_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 145
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000146_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 146
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000147_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 147
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000148_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 148
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000149_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 149
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000150_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 150
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000151_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 151
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000152_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 152
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000153_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 153
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000154_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 154
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000155_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 155
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000156_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 156
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000157_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 157
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000158_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 158
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000159_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 159
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000160_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 160
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000161_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 161
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000162_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 162
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000163_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 163
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000164_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 164
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000165_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 165
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000166_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 166
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000167_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 167
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000168_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 168
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000169_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 169
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000170_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 170
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000171_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 171
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000172_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 172
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000173_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 173
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000174_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 174
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000175_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 175
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000176_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 176
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000177_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 177
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000178_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 178
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000179_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 6,
+        "num_markups": 1,
+        "index": 179
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000180_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 180
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000181_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 181
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000182_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 2,
+        "index": 182
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000183_eng.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 183
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000184_eng.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "eng",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 184
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000185_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 185
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000186_chi_sim.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 1,
+        "index": 186
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000187_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 187
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000188_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 4,
+        "num_markups": 2,
+        "index": 188
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000189_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 4,
+        "num_markups": 1,
+        "index": 189
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000190_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 190
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000191_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 2,
+        "index": 191
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000192_jpn.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 7,
+        "num_markups": 1,
+        "index": 192
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000193_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 193
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000194_kor.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 2,
+        "index": 194
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000195_chi_sim.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "chi_sim",
+        "num_lines": 8,
+        "num_markups": 2,
+        "index": 195
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000196_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 196
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000197_jpn.png",
+      "num_annotations": 2,
+      "metadata": {
+        "language": "jpn",
+        "num_lines": 6,
+        "num_markups": 2,
+        "index": 197
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000198_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 5,
+        "num_markups": 1,
+        "index": 198
+      }
+    },
+    {
+      "image_path": "test_results/shape_test_data/sample_000199_kor.png",
+      "num_annotations": 1,
+      "metadata": {
+        "language": "kor",
+        "num_lines": 3,
+        "num_markups": 1,
+        "index": 199
+      }
+    }
+  ]
+}

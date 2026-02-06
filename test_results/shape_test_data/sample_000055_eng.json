@@ -1,0 +1,23 @@
+{
+  "image_path": "test_results/shape_test_data/sample_000055_eng.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        40,
+        157,
+        280,
+        280
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 6,
+    "num_markups": 1,
+    "index": 55
+  }
+}

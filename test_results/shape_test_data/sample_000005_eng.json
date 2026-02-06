@@ -1,0 +1,23 @@
+{
+  "image_path": "test_results/shape_test_data/sample_000005_eng.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        40,
+        282,
+        305,
+        30
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 6,
+    "num_markups": 1,
+    "index": 5
+  }
+}

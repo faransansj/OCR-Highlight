@@ -1,0 +1,39 @@
+{
+  "image_path": "test_results/generator_test/sample_000709_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "orange",
+      "bbox": [
+        50,
+        53,
+        80,
+        7
+      ],
+      "text": "深度神经网络彻底改变了图像处理。",
+      "color": [
+        255,
+        200,
+        124
+      ]
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        40,
+        43,
+        100,
+        27
+      ],
+      "text": "深度神经网络彻底改变了图像处理。",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 4,
+    "num_markups": 2,
+    "index": 709
+  }
+}
