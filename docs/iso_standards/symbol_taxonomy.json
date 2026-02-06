@@ -1,0 +1,222 @@
+{
+  "version": "1.0.0",
+  "description": "ISO-based document markup symbol taxonomy for OCR-Highlight 2.0",
+  "references": [
+    "ISO 32000-2:2020 (PDF 2.0)",
+    "ISO 24517-1:2021 (Document markup)",
+    "Common document annotation practices"
+  ],
+  "categories": {
+    "highlights": {
+      "description": "Color-based background highlights",
+      "symbols": [
+        {
+          "id": "HL_YELLOW",
+          "name": "Yellow Highlight",
+          "color_range": "HSV [25-35, 60-255, 70-255]",
+          "priority": 1,
+          "status": "implemented"
+        },
+        {
+          "id": "HL_GREEN",
+          "name": "Green Highlight",
+          "color_range": "HSV [55-65, 60-255, 70-255]",
+          "priority": 1,
+          "status": "implemented"
+        },
+        {
+          "id": "HL_PINK",
+          "name": "Pink Highlight",
+          "color_range": "HSV [169-180, 10-70, 70-255]",
+          "priority": 1,
+          "status": "implemented"
+        },
+        {
+          "id": "HL_BLUE",
+          "name": "Blue Highlight",
+          "color_range": "HSV [100-120, 60-255, 70-255]",
+          "priority": 2,
+          "status": "planned"
+        },
+        {
+          "id": "HL_ORANGE",
+          "name": "Orange Highlight",
+          "color_range": "HSV [10-20, 60-255, 70-255]",
+          "priority": 2,
+          "status": "planned"
+        }
+      ]
+    },
+    "underlines": {
+      "description": "Line-based text emphasis below text",
+      "detection_method": "Hough Line Transform + Text proximity",
+      "symbols": [
+        {
+          "id": "UL_SINGLE",
+          "name": "Single Underline",
+          "pattern": "horizontal line, 1-3px thick",
+          "angle_tolerance": "±5 degrees",
+          "priority": 1,
+          "status": "new"
+        },
+        {
+          "id": "UL_DOUBLE",
+          "name": "Double Underline",
+          "pattern": "two parallel horizontal lines",
+          "spacing": "3-8px between lines",
+          "priority": 2,
+          "status": "new"
+        },
+        {
+          "id": "UL_WAVY",
+          "name": "Wavy Underline",
+          "pattern": "sine wave pattern",
+          "amplitude": "2-5px",
+          "priority": 3,
+          "status": "new"
+        },
+        {
+          "id": "UL_DOTTED",
+          "name": "Dotted Underline",
+          "pattern": "dashed/dotted line",
+          "priority": 3,
+          "status": "new"
+        }
+      ]
+    },
+    "strikethroughs": {
+      "description": "Line-based text cancellation through text",
+      "detection_method": "Hough Line Transform + Text overlap",
+      "symbols": [
+        {
+          "id": "ST_SINGLE",
+          "name": "Single Strikethrough",
+          "pattern": "horizontal line through text center",
+          "priority": 1,
+          "status": "new"
+        },
+        {
+          "id": "ST_DOUBLE",
+          "name": "Double Strikethrough",
+          "pattern": "two parallel lines",
+          "priority": 2,
+          "status": "new"
+        },
+        {
+          "id": "ST_X",
+          "name": "X-mark Strikethrough",
+          "pattern": "diagonal cross pattern",
+          "priority": 2,
+          "status": "new"
+        }
+      ]
+    },
+    "shapes": {
+      "description": "Geometric shape-based markers",
+      "detection_method": "Contour analysis + Shape matching",
+      "symbols": [
+        {
+          "id": "SH_CIRCLE",
+          "name": "Circle",
+          "pattern": "closed circular contour",
+          "circularity": "> 0.85",
+          "priority": 1,
+          "status": "new"
+        },
+        {
+          "id": "SH_RECTANGLE",
+          "name": "Rectangle/Box",
+          "pattern": "rectangular contour",
+          "aspect_ratio": "0.5-2.0",
+          "priority": 1,
+          "status": "new"
+        },
+        {
+          "id": "SH_STAR",
+          "name": "Star",
+          "pattern": "star shape template",
+          "points": "5 or 6",
+          "priority": 2,
+          "status": "new"
+        },
+        {
+          "id": "SH_CHECK",
+          "name": "Checkmark",
+          "pattern": "check/tick shape",
+          "priority": 1,
+          "status": "new"
+        }
+      ]
+    },
+    "arrows": {
+      "description": "Directional indicators",
+      "detection_method": "Line detection + Arrowhead matching",
+      "symbols": [
+        {
+          "id": "AR_STRAIGHT",
+          "name": "Straight Arrow",
+          "pattern": "line with triangle head",
+          "priority": 2,
+          "status": "new"
+        },
+        {
+          "id": "AR_CURVED",
+          "name": "Curved Arrow",
+          "pattern": "bezier curve with head",
+          "priority": 3,
+          "status": "new"
+        },
+        {
+          "id": "AR_DOUBLE",
+          "name": "Double-headed Arrow",
+          "pattern": "line with heads on both ends",
+          "priority": 3,
+          "status": "new"
+        }
+      ]
+    },
+    "markers": {
+      "description": "Point-based attention markers",
+      "detection_method": "Template matching + Color filtering",
+      "symbols": [
+        {
+          "id": "MK_EXCLAMATION",
+          "name": "Exclamation Mark (!)",
+          "pattern": "vertical line + dot",
+          "priority": 2,
+          "status": "new"
+        },
+        {
+          "id": "MK_QUESTION",
+          "name": "Question Mark (?)",
+          "pattern": "hook + dot",
+          "priority": 2,
+          "status": "new"
+        },
+        {
+          "id": "MK_ASTERISK",
+          "name": "Asterisk (*)",
+          "pattern": "star burst pattern",
+          "priority": 3,
+          "status": "new"
+        }
+      ]
+    }
+  },
+  "priority_rules": {
+    "1": "High - Essential for basic functionality",
+    "2": "Medium - Important for comprehensive coverage",
+    "3": "Low - Nice to have, advanced features"
+  },
+  "detection_pipeline": {
+    "order": [
+      "highlights (color-based, fastest)",
+      "shapes (contour-based)",
+      "underlines (line-based, below text)",
+      "strikethroughs (line-based, through text)",
+      "arrows (complex pattern)",
+      "markers (template matching)"
+    ],
+    "overlap_resolution": "priority-based (higher priority wins)"
+  }
+}
