@@ -30,31 +30,34 @@
 brew install tesseract tesseract-lang
 
 # 2. Install Python dependencies
-pip install opencv-python numpy pytesseract
-
-# 3. Verify installation
-python -c "import cv2, pytesseract; print('✓ Ready!')"
-```
-
-### Usage
-
-```bash
-# Single image extraction
-python extract_highlights.py image.jpg
-
-# With visualization
-python extract_highlights.py image.jpg --visualize
-
-# Batch processing
-python extract_highlights.py img1.jpg img2.jpg img3.jpg --batch
-
-# All output formats
-python extract_highlights.py image.jpg --format json csv txt vis
+pip install opencv-python numpy pytesseract ultralytics
 ```
 
 ---
 
-## 📊 Performance Metrics
+## 🎯 YOLO Markup Detection (New)
+
+A high-performance YOLOv8 model for detecting **highlights, underlines, strikethrough, circles, and rectangles**.
+
+### ⚡ Platform-Specific Training (Copy-Paste)
+
+| Platform | Command |
+| :--- | :--- |
+| **Apple Silicon (M1-M4)** | `python3 train_yolo_mps.py` |
+| **NVIDIA GPU (Win/Linux)** | `yolo train data=data/yolo_dataset_preprocessed/dataset.yaml model=yolov8n.pt epochs=50 device=0` |
+| **AMD GPU (Linux/ROCm)** | `HSA_OVERRIDE_GFX_VERSION=11.0.2 yolo train data=data/yolo_dataset_preprocessed/dataset.yaml model=yolov8n.pt epochs=50 device=0` |
+| **CPU Only** | `python3 train_yolo_cpu_final.py` |
+
+### 🔍 Inference (Run Prediction)
+
+```bash
+# Detect markup on a single image
+python3 predict.py path/to/image.jpg --conf 0.25
+```
+
+---
+
+## 🚀 Legacy Pipeline (HSV + Tesseract)
 
 ### Highlight Detection
 | Metric | Value | Target | Status |
