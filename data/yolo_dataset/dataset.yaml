@@ -1,0 +1,10 @@
+names:
+- highlight
+- underline
+- strikethrough
+- circle
+- rectangle
+nc: 5
+path: /root/.openclaw/workspace/ocr-highlight-v2/data/yolo_dataset
+train: train/images
+val: val/images

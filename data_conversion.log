@@ -1,0 +1,24 @@
+Merging 10100 images from 2 datasets
+✅ Dataset YAML created: data/yolo_dataset/dataset.yaml
+
+✅ YOLO Dataset Conversion Complete!
+
+Train Statistics:
+  Images: 9090
+  Annotations: 18314
+  Classes:
+    - highlight: 3680
+    - underline: 3653
+    - strikethrough: 3640
+    - circle: 3694
+    - rectangle: 3647
+
+Val Statistics:
+  Images: 1010
+  Annotations: 2028
+  Classes:
+    - highlight: 404
+    - underline: 400
+    - strikethrough: 429
+    - circle: 396
+    - rectangle: 399
