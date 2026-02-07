@@ -11,27 +11,9 @@ from pathlib import Path
 from ultralytics import YOLO
 import cv2
 
-# Class names mapping
-CLASS_NAMES = {
-    0: 'highlight',
-    1: 'underline', 
-    2: 'strikethrough',
-    3: 'circle',
-    4: 'rectangle'
-}
-
 def predict_image(model, image_path, conf_threshold=0.25, save_dir='predictions'):
     """
     Run inference on a single image
-    
-    Args:
-        model: YOLO model
-        image_path: Path to input image
-        conf_threshold: Confidence threshold (0-1)
-        save_dir: Directory to save results
-    
-    Returns:
-        dict: Detection results with counts per class
     """
     # Create save directory
     save_path = Path(save_dir)
@@ -47,16 +29,16 @@ def predict_image(model, image_path, conf_threshold=0.25, save_dir='predictions'
         exist_ok=True
     )
     
-    # Parse results
-    detections = {name: 0 for name in CLASS_NAMES.values()}
+    # Parse results using model's own class names
+    detections = {}
     boxes = results[0].boxes
     
     if boxes is not None and len(boxes) > 0:
         for box in boxes:
             cls_id = int(box.cls[0])
             conf = float(box.conf[0])
-            class_name = CLASS_NAMES.get(cls_id, 'unknown')
-            detections[class_name] += 1
+            class_name = model.names.get(cls_id, f'class_{cls_id}')
+            detections[class_name] = detections.get(class_name, 0) + 1
             
             print(f"  {class_name}: {conf:.3f}")
     
