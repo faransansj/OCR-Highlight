@@ -2,20 +2,24 @@
 
 ## Prerequisites
 
-### 1. Install PyTorch with MPS Support
+### 1. Install `uv` and Setup Environment (Recommended)
+`uv` is an extremely fast Python package installer and resolver.
+
 ```bash
-# Create conda environment (recommended)
-conda create -n yolo python=3.11
-conda activate yolo
+# 1. Install uv (if not installed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Install PyTorch with MPS support
-pip install torch torchvision torchaudio
+# 2. Create virtual environment
+uv venv
 
-# Install Ultralytics YOLO
-pip install ultralytics
+# 3. Activate environment
+source .venv/bin/activate
+
+# 4. Install dependencies
+uv pip install torch torchvision torchaudio ultralytics
 ```
 
-### 2. Verify MPS Availability
+### 2. Traditional Setup (Alternative)
 ```bash
 python3 -c "import torch; print(f'MPS available: {torch.backends.mps.is_available()}'); print(f'MPS built: {torch.backends.mps.is_built()}')"
 ```
@@ -73,12 +77,12 @@ print(f"Best model: markup_detector_mps/m4_training/weights/best.pt")
 
 ## Running Training
 
-### Option 1: Direct Run
+### Option 1: Using `uv run` (Fastest)
 ```bash
-python3 train_yolo_mps.py
+uv run python train_yolo_mps.py
 ```
 
-### Option 2: With Logging
+### Option 2: Direct Run (Activated Env)
 ```bash
 python3 train_yolo_mps.py 2>&1 | tee training_log.txt
 ```

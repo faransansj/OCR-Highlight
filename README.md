@@ -41,12 +41,20 @@ A high-performance YOLOv8 model for detecting **highlights, underlines, striketh
 
 ### ⚡ Platform-Specific Training (Copy-Paste)
 
+**Using `uv` (Recommended):**
+```bash
+# Setup uv environment
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv venv && source .venv/bin/activate
+uv pip install torch torchvision ultralytics
+```
+
 | Platform | Command |
 | :--- | :--- |
-| **Apple Silicon (M1-M4)** | `python3 train_yolo_mps.py` |
-| **NVIDIA GPU (Win/Linux)** | `yolo train data=data/yolo_dataset_preprocessed/dataset.yaml model=yolov8n.pt epochs=50 device=0` |
-| **AMD GPU (Linux/ROCm)** | `HSA_OVERRIDE_GFX_VERSION=11.0.2 yolo train data=data/yolo_dataset_preprocessed/dataset.yaml model=yolov8n.pt epochs=50 device=0` |
-| **CPU Only** | `python3 train_yolo_cpu_final.py` |
+| **Apple Silicon (M1-M4)** | `uv run python train_yolo_mps.py` |
+| **NVIDIA GPU (Win/Linux)** | `uv run yolo train data=data/yolo_dataset_preprocessed/dataset.yaml model=yolov8n.pt epochs=50 device=0` |
+| **AMD GPU (Linux/ROCm)** | `HSA_OVERRIDE_GFX_VERSION=11.0.2 uv run yolo train data=data/yolo_dataset_preprocessed/dataset.yaml model=yolov8n.pt epochs=50 device=0` |
+| **CPU Only** | `uv run python train_yolo_cpu_final.py` |
 
 ### 🔍 Inference (Run Prediction)
 
