@@ -137,7 +137,7 @@ if __name__ == '__main__':
         'data/yolo_dataset_preprocessed/val/labels'
     )
     
-    # Create dataset.yaml
+    # Create dataset.yaml with relative paths
     yaml_content = f"""names:
 - highlight
 - underline
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 - circle
 - rectangle
 nc: 5
-path: /root/.openclaw/workspace/ocr-highlight-v2/data/yolo_dataset_preprocessed
+path: ./data/yolo_dataset_preprocessed
 train: train/images
 val: val/images
 """

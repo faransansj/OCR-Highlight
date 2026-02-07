@@ -1,0 +1,10 @@
+names:
+- highlight
+- underline
+- strikethrough
+- circle
+- rectangle
+nc: 5
+path: ./data/yolo_dataset_preprocessed
+train: train/images
+val: val/images
