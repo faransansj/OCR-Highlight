@@ -20,7 +20,8 @@
 ## ✨ Features
 
 -   ✅ **Deep Learning Detection**: YOLOv8 model for high-precision markup detection.
--   ✅ **Multi-Class Support**: Highlights, underlines, strikethrough, circles, and rectangles.
+-   ✅ **Latest Model**: Trained on Apple Silicon M4 (`markup_detector_v2_m4.pt`).
+-   ✅ **Class Consolidation**: Optimized for `highlight` and `symbol` detection.
 -   ✅ **Multi-Language OCR**: Optimized for Korean-English mixed text.
 -   ✅ **Universal Support**: Native acceleration for Apple Silicon (MPS), NVIDIA (CUDA), and AMD (ROCm).
 -   ✅ **Speed**: Real-time inference (~40ms on CPU).

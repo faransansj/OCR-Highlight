@@ -65,7 +65,7 @@ def predict_image(model, image_path, conf_threshold=0.25, save_dir='predictions'
 def main():
     parser = argparse.ArgumentParser(description='Detect markup in document images')
     parser.add_argument('image', type=str, help='Path to input image')
-    parser.add_argument('--model', type=str, default='final_model/markup_detector_v1.pt',
+    parser.add_argument('--model', type=str, default='final_model/markup_detector_v2_m4.pt',
                         help='Path to model weights')
     parser.add_argument('--conf', type=float, default=0.25,
                         help='Confidence threshold (default: 0.25)')

@@ -1,4 +1,4 @@
-path: /Users/midori/Develop/OCR-Highlight/data
+path: ./data
 train: validation/images
 val: test/images
 
