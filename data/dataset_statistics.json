@@ -2,29 +2,29 @@
   "validation": {
     "split_name": "validation",
     "total_images": 180,
-    "total_highlights": 429,
-    "avg_highlights_per_image": 2.3833333333333333,
+    "total_highlights": 405,
+    "avg_highlights_per_image": 2.25,
     "color_distribution": {
-      "yellow": 159,
-      "green": 138,
+      "yellow": 129,
+      "green": 144,
       "pink": 132
     },
-    "avg_highlight_area": 1147.8975336011567,
-    "std_highlight_area": 469.3246174110715
+    "avg_highlight_area": 1161.334259633189,
+    "std_highlight_area": 504.3586408169125
   },
   "test": {
     "split_name": "test",
     "total_images": 420,
-    "total_highlights": 927,
-    "avg_highlights_per_image": 2.2071428571428573,
+    "total_highlights": 939,
+    "avg_highlights_per_image": 2.2357142857142858,
     "color_distribution": {
-      "yellow": 342,
-      "green": 279,
-      "pink": 306
+      "yellow": 345,
+      "green": 303,
+      "pink": 291
     },
-    "avg_highlight_area": 1178.2413134535766,
-    "std_highlight_area": 484.1952547618616
+    "avg_highlight_area": 1107.6429977929188,
+    "std_highlight_area": 458.54346603358965
   },
   "total_images": 600,
-  "total_highlights": 1356
+  "total_highlights": 1344
 }

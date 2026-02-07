@@ -1,0 +1,7 @@
+path: /Users/midori/Develop/OCR-Highlight/data
+train: validation/images
+val: test/images
+
+names:
+  0: highlight
+  1: symbol
