@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_007053_kor.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        230,
+        132,
+        132
+      ],
+      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        172,
+        105,
+        8
+      ],
+      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        113,
+        95,
+        7
+      ],
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 7,
+    "num_markups": 3,
+    "index": 7053
+  }
+}

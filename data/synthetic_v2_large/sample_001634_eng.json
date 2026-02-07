@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_001634_eng.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        32,
+        290,
+        290
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        68,
+        285,
+        10
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        111,
+        226,
+        11
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 8,
+    "num_markups": 3,
+    "index": 1634
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_005870_eng.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        32,
+        290,
+        290
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        36,
+        330,
+        41
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 3,
+    "num_markups": 2,
+    "index": 5870
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "source_image": "data/docvqa_samples/docvqa_0040.png",
+  "output_image": "data/docvqa_with_markups/marked_docvqa_0040.png",
+  "image_size": {
+    "width": 1701,
+    "height": 2386
+  },
+  "num_markups": 3,
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "bbox": [
+        1272,
+        2182,
+        251,
+        56
+      ],
+      "confidence": 1.0,
+      "properties": {
+        "color": "highlight_green"
+      }
+    },
+    {
+      "markup_type": "underline",
+      "bbox": [
+        1338,
+        953,
+        243,
+        75
+      ],
+      "confidence": 1.0,
+      "properties": {
+        "color": "underline_red",
+        "double": false
+      }
+    },
+    {
+      "markup_type": "underline",
+      "bbox": [
+        577,
+        2027,
+        202,
+        73
+      ],
+      "confidence": 1.0,
+      "properties": {
+        "color": "underline_red",
+        "double": false
+      }
+    }
+  ]
+}

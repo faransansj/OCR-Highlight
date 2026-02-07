@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_007604_kor.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        66,
+        141,
+        10
+      ],
+      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        173,
+        102,
+        7
+      ],
+      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 3,
+    "num_markups": 2,
+    "index": 7604
+  }
+}

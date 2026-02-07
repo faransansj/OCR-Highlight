@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009728_eng.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        52,
+        226,
+        8
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        156,
+        295,
+        41
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "orange",
+      "bbox": [
+        50,
+        111,
+        300,
+        11
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": [
+        255,
+        200,
+        124
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 8,
+    "num_markups": 3,
+    "index": 9728
+  }
+}

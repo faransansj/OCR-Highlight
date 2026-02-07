@@ -1,0 +1,47 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_006984_eng.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        48,
+        256,
+        256
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        68,
+        261,
+        10
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        216,
+        295,
+        41
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 3,
+    "index": 6984
+  }
+}

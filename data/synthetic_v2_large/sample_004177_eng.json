@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_004177_eng.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        231,
+        300,
+        11
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        68,
+        226,
+        4
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 2,
+    "index": 4177
+  }
+}

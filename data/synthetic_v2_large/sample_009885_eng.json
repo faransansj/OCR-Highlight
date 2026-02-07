@@ -1,0 +1,35 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009885_eng.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        68,
+        300,
+        10
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        97,
+        315,
+        40
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 2,
+    "index": 9885
+  }
+}

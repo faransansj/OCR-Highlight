@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_008803_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        113,
+        80,
+        7
+      ],
+      "text": "计算机视觉是人工智能的一个领域。",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 7,
+    "num_markups": 1,
+    "index": 8803
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_001370_eng.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        52,
+        285,
+        10
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        291,
+        226,
+        11
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "orange",
+      "bbox": [
+        50,
+        231,
+        300,
+        11
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": [
+        255,
+        200,
+        124
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 5,
+    "num_markups": 3,
+    "index": 1370
+  }
+}

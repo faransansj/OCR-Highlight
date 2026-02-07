@@ -1,0 +1,35 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_000260_kor.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        278,
+        125,
+        37
+      ],
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        186,
+        141,
+        4
+      ],
+      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 8,
+    "num_markups": 2,
+    "index": 260
+  }
+}

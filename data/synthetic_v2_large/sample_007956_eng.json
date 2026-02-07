@@ -1,0 +1,47 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_007956_eng.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        36,
+        330,
+        41
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        217,
+        291,
+        40
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        173,
+        285,
+        8
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 7,
+    "num_markups": 3,
+    "index": 7956
+  }
+}

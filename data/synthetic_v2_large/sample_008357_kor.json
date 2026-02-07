@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_008357_kor.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        113,
+        102,
+        7
+      ],
+      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 3,
+    "num_markups": 1,
+    "index": 8357
+  }
+}

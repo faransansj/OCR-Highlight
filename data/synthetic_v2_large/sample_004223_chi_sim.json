@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_004223_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        38,
+        110,
+        37
+      ],
+      "text": "深度神经网络彻底改变了图像处理。",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        173,
+        85,
+        7
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 5,
+    "num_markups": 2,
+    "index": 4223
+  }
+}

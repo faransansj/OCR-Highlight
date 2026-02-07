@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_002450_jpn.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        113,
+        140,
+        7
+      ],
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        186,
+        105,
+        10
+      ],
+      "text": "コンピュータビジョンは人工知能の分野です。",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        186,
+        105,
+        4
+      ],
+      "text": "コンピュータビジョンは人工知能の分野です。",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "jpn",
+    "num_lines": 5,
+    "num_markups": 3,
+    "index": 2450
+  }
+}

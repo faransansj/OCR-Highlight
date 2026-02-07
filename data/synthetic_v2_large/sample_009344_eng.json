@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009344_eng.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        277,
+        315,
+        40
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        68,
+        261,
+        10
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        292,
+        285,
+        10
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 5,
+    "num_markups": 3,
+    "index": 9344
+  }
+}

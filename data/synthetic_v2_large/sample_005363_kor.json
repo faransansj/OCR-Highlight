@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_005363_kor.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "pink",
+      "bbox": [
+        50,
+        173,
+        102,
+        7
+      ],
+      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
+      "color": [
+        255,
+        182,
+        193
+      ]
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        292,
+        105,
+        8
+      ],
+      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 5,
+    "num_markups": 2,
+    "index": 5363
+  }
+}

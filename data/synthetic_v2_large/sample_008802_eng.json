@@ -1,0 +1,47 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_008802_eng.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        112,
+        300,
+        8
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        68,
+        261,
+        4
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        53,
+        261,
+        8
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 3,
+    "index": 8802
+  }
+}

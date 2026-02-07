@@ -1,0 +1,47 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009866_eng.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        217,
+        315,
+        40
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        112,
+        226,
+        8
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        96,
+        256,
+        41
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 3,
+    "index": 9866
+  }
+}

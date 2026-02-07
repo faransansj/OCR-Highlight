@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009802_eng.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        52,
+        226,
+        8
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        68,
+        226,
+        10
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "pink",
+      "bbox": [
+        50,
+        51,
+        226,
+        11
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": [
+        255,
+        182,
+        193
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 4,
+    "num_markups": 3,
+    "index": 9802
+  }
+}

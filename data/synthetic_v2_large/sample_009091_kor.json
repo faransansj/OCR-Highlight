@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009091_kor.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        233,
+        105,
+        7
+      ],
+      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 4,
+    "num_markups": 1,
+    "index": 9091
+  }
+}

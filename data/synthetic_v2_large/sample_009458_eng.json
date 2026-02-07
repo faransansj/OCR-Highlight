@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009458_eng.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        112,
+        285,
+        10
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 8,
+    "num_markups": 1,
+    "index": 9458
+  }
+}

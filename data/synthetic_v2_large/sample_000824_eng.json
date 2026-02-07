@@ -1,0 +1,55 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_000824_eng.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "pink",
+      "bbox": [
+        50,
+        111,
+        226,
+        11
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": [
+        255,
+        182,
+        193
+      ]
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        248,
+        261,
+        10
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "orange",
+      "bbox": [
+        50,
+        111,
+        226,
+        11
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": [
+        255,
+        200,
+        124
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 8,
+    "num_markups": 3,
+    "index": 824
+  }
+}

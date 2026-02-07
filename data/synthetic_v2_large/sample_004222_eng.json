@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_004222_eng.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        36,
+        295,
+        41
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 3,
+    "num_markups": 1,
+    "index": 4222
+  }
+}

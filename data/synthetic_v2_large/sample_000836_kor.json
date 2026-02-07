@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_000836_kor.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "orange",
+      "bbox": [
+        50,
+        113,
+        134,
+        7
+      ],
+      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
+      "color": [
+        255,
+        200,
+        124
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 5,
+    "num_markups": 1,
+    "index": 836
+  }
+}

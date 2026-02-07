@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_001461_kor.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        293,
+        105,
+        7
+      ],
+      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        52,
+        134,
+        8
+      ],
+      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 7,
+    "num_markups": 2,
+    "index": 1461
+  }
+}

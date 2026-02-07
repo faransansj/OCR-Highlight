@@ -1,0 +1,35 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_007458_eng.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        188,
+        265,
+        10
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        233,
+        261,
+        8
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 7,
+    "num_markups": 2,
+    "index": 7458
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009961_eng.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        112,
+        265,
+        8
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        52,
+        300,
+        8
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        111,
+        265,
+        11
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 8,
+    "num_markups": 3,
+    "index": 9961
+  }
+}

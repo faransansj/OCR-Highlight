@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_007975_jpn.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        172,
+        135,
+        8
+      ],
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "jpn",
+    "num_lines": 5,
+    "num_markups": 1,
+    "index": 7975
+  }
+}

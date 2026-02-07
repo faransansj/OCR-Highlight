@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_006097_kor.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        91,
+        170,
+        170
+      ],
+      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        53,
+        134,
+        7
+      ],
+      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 6,
+    "num_markups": 2,
+    "index": 6097
+  }
+}

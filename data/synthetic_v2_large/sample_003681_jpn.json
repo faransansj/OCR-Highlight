@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_003681_jpn.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        158,
+        170,
+        37
+      ],
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        38,
+        165,
+        37
+      ],
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "pink",
+      "bbox": [
+        50,
+        173,
+        140,
+        7
+      ],
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "color": [
+        255,
+        182,
+        193
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "jpn",
+    "num_lines": 7,
+    "num_markups": 3,
+    "index": 3681
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_002062_kor.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        186,
+        141,
+        10
+      ],
+      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        113,
+        105,
+        7
+      ],
+      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 4,
+    "num_markups": 2,
+    "index": 2062
+  }
+}

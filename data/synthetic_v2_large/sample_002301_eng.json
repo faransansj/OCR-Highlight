@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_002301_eng.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        113,
+        261,
+        8
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 5,
+    "num_markups": 1,
+    "index": 2301
+  }
+}

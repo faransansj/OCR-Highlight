@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009884_kor.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        66,
+        102,
+        4
+      ],
+      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "orange",
+      "bbox": [
+        50,
+        293,
+        95,
+        7
+      ],
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "color": [
+        255,
+        200,
+        124
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 5,
+    "num_markups": 2,
+    "index": 9884
+  }
+}

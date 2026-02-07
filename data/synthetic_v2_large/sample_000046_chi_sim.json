@@ -1,0 +1,51 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_000046_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        158,
+        110,
+        37
+      ],
+      "text": "计算机视觉是人工智能的一个领域。",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        112,
+        85,
+        8
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        173,
+        80,
+        7
+      ],
+      "text": "计算机视觉是人工智能的一个领域。",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 8,
+    "num_markups": 3,
+    "index": 46
+  }
+}

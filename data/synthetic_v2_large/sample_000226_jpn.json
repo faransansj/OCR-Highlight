@@ -1,0 +1,39 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_000226_jpn.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        34,
+        164,
+        164
+      ],
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "color": null
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        113,
+        135,
+        7
+      ],
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "jpn",
+    "num_lines": 3,
+    "num_markups": 2,
+    "index": 226
+  }
+}

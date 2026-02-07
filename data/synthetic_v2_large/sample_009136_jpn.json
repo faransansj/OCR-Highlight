@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009136_jpn.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "green",
+      "bbox": [
+        50,
+        173,
+        140,
+        7
+      ],
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "jpn",
+    "num_lines": 4,
+    "num_markups": 1,
+    "index": 9136
+  }
+}

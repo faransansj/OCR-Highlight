@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_005462_kor.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        52,
+        95,
+        8
+      ],
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 6,
+    "num_markups": 1,
+    "index": 5462
+  }
+}

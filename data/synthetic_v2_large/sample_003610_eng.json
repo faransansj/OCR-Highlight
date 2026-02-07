@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_003610_eng.png",
+  "annotations": [
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        -49,
+        330,
+        330
+      ],
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "eng",
+    "num_lines": 3,
+    "num_markups": 1,
+    "index": 3610
+  }
+}

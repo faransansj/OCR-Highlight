@@ -1,0 +1,47 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_005865_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "strikethrough",
+      "subtype": "double",
+      "bbox": [
+        50,
+        112,
+        85,
+        8
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        112,
+        85,
+        8
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        126,
+        85,
+        10
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 6,
+    "num_markups": 3,
+    "index": 5865
+  }
+}

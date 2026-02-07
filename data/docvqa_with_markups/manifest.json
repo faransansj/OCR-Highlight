@@ -1,0 +1,5382 @@
+{
+  "total_images": 100,
+  "markups_per_image": 3,
+  "images": [
+    {
+      "source_image": "data/docvqa_samples/docvqa_0016.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0016.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            980,
+            1634,
+            298,
+            22
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1208,
+            1651,
+            388,
+            388
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1402,
+              1845
+            ],
+            "radius": 194
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            680,
+            648,
+            312,
+            37
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0052.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0052.png",
+      "image_size": {
+        "width": 2159,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1367,
+            103,
+            392,
+            21
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1824,
+            1122,
+            225,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1438,
+            495,
+            319,
+            64
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0032.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0032.png",
+      "image_size": {
+        "width": 1695,
+        "height": 2200
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            405,
+            1665,
+            188,
+            60
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            127,
+            401,
+            244,
+            244
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              249,
+              523
+            ],
+            "radius": 122
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            586,
+            321,
+            186,
+            63
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0085.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0085.png",
+      "image_size": {
+        "width": 3238,
+        "height": 2136
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            2896,
+            108,
+            122,
+            31
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1662,
+            1629,
+            219,
+            65
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1162,
+            1193,
+            188,
+            30
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0042.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0042.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            487,
+            1377,
+            297,
+            39
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1137,
+            1523,
+            308,
+            46
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            943,
+            472,
+            381,
+            68
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0049.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0049.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            98,
+            730,
+            221,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            690,
+            2075,
+            396,
+            396
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              888,
+              2273
+            ],
+            "radius": 198
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            569,
+            1036,
+            122,
+            55
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0055.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0055.png",
+      "image_size": {
+        "width": 1748,
+        "height": 2236
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1044,
+            1310,
+            215,
+            24
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            880,
+            1049,
+            190,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1458,
+            334,
+            161,
+            68
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0087.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0087.png",
+      "image_size": {
+        "width": 3238,
+        "height": 2136
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            477,
+            847,
+            268,
+            84
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            851,
+            667,
+            288,
+            75
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            275,
+            1100,
+            101,
+            45
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0031.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0031.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            490,
+            140,
+            245,
+            67
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            428,
+            718,
+            386,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            436,
+            1538,
+            211,
+            21
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0041.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0041.png",
+      "image_size": {
+        "width": 2162,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1162,
+            340,
+            176,
+            176
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1250,
+              428
+            ],
+            "radius": 88
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            269,
+            1429,
+            127,
+            51
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1352,
+            77,
+            336,
+            336
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1520,
+              245
+            ],
+            "radius": 168
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0022.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0022.png",
+      "image_size": {
+        "width": 1679,
+        "height": 2340
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            704,
+            814,
+            101,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1107,
+            315,
+            106,
+            36
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            480,
+            1571,
+            327,
+            34
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0090.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0090.png",
+      "image_size": {
+        "width": 1784,
+        "height": 2284
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            863,
+            141,
+            201,
+            65
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            582,
+            694,
+            366,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            720,
+            2077,
+            394,
+            81
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0056.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0056.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            129,
+            2093,
+            244,
+            244
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              251,
+              2215
+            ],
+            "radius": 122
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            966,
+            1586,
+            226,
+            226
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1079,
+              1699
+            ],
+            "radius": 113
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            183,
+            1135,
+            138,
+            60
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0036.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0036.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            119,
+            350,
+            236,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            367,
+            434,
+            381,
+            75
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1024,
+            402,
+            106,
+            66
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0091.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0091.png",
+      "image_size": {
+        "width": 1784,
+        "height": 2284
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1046,
+            703,
+            292,
+            79
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            229,
+            1048,
+            135,
+            88
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1131,
+            1759,
+            368,
+            368
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1315,
+              1943
+            ],
+            "radius": 184
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0077.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0077.png",
+      "image_size": {
+        "width": 1788,
+        "height": 2286
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1410,
+            474,
+            163,
+            56
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            148,
+            656,
+            284,
+            86
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            976,
+            1497,
+            229,
+            62
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0066.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0066.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            611,
+            1564,
+            349,
+            59
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            919,
+            245,
+            348,
+            348
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1093,
+              419
+            ],
+            "radius": 174
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            788,
+            1303,
+            318,
+            318
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              947,
+              1462
+            ],
+            "radius": 159
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0040.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0040.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1272,
+            2182,
+            251,
+            56
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1338,
+            953,
+            243,
+            75
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            577,
+            2027,
+            202,
+            73
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0058.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0058.png",
+      "image_size": {
+        "width": 2159,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            725,
+            1082,
+            154,
+            154
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              802,
+              1159
+            ],
+            "radius": 77
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            1330,
+            801,
+            235,
+            72
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1829,
+            1589,
+            247,
+            53
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0080.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0080.png",
+      "image_size": {
+        "width": 2284,
+        "height": 1786
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1496,
+            628,
+            238,
+            56
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1495,
+            1143,
+            272,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            223,
+            1327,
+            117,
+            52
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0010.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0010.png",
+      "image_size": {
+        "width": 850,
+        "height": 1644
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            409,
+            713,
+            174,
+            39
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            69,
+            219,
+            412,
+            412
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              275,
+              425
+            ],
+            "radius": 206
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            181,
+            850,
+            384,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0044.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0044.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            165,
+            1347,
+            165,
+            53
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            791,
+            596,
+            234,
+            84
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            504,
+            298,
+            356,
+            50
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0013.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0013.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            512,
+            824,
+            368,
+            368
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              696,
+              1008
+            ],
+            "radius": 184
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            225,
+            1519,
+            387,
+            27
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            163,
+            1993,
+            172,
+            172
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              249,
+              2079
+            ],
+            "radius": 86
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0096.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0096.png",
+      "image_size": {
+        "width": 1768,
+        "height": 2266
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            995,
+            412,
+            163,
+            39
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            460,
+            249,
+            212,
+            38
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            92,
+            52,
+            186,
+            90
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0018.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0018.png",
+      "image_size": {
+        "width": 850,
+        "height": 1644
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            300,
+            1122,
+            318,
+            318
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              459,
+              1281
+            ],
+            "radius": 159
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            114,
+            453,
+            238,
+            238
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              233,
+              572
+            ],
+            "radius": 119
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            372,
+            1398,
+            128,
+            72
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0076.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0076.png",
+      "image_size": {
+        "width": 1791,
+        "height": 2289
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            299,
+            546,
+            152,
+            24
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            510,
+            1797,
+            422,
+            422
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              721,
+              2008
+            ],
+            "radius": 211
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1395,
+            1017,
+            189,
+            32
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0063.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0063.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1151,
+            873,
+            291,
+            73
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            419,
+            2161,
+            214,
+            77
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            890,
+            1589,
+            255,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0082.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0082.png",
+      "image_size": {
+        "width": 1768,
+        "height": 2266
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1401,
+            1341,
+            294,
+            294
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1548,
+              1488
+            ],
+            "radius": 147
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1414,
+            1013,
+            210,
+            210
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1519,
+              1118
+            ],
+            "radius": 105
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            283,
+            1096,
+            402,
+            67
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0064.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0064.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            700,
+            1516,
+            406,
+            406
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              903,
+              1719
+            ],
+            "radius": 203
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            680,
+            1924,
+            273,
+            50
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            252,
+            326,
+            337,
+            65
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0039.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0039.png",
+      "image_size": {
+        "width": 2159,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            975,
+            625,
+            297,
+            49
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            192,
+            394,
+            222,
+            51
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            867,
+            704,
+            331,
+            29
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0073.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0073.png",
+      "image_size": {
+        "width": 1791,
+        "height": 2289
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1008,
+            1689,
+            364,
+            30
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1172,
+            1990,
+            327,
+            60
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            373,
+            135,
+            260,
+            36
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0079.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0079.png",
+      "image_size": {
+        "width": 2284,
+        "height": 1786
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1884,
+            1151,
+            166,
+            166
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1967,
+              1234
+            ],
+            "radius": 83
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            704,
+            485,
+            287,
+            41
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            868,
+            1077,
+            395,
+            62
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0020.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0020.png",
+      "image_size": {
+        "width": 1679,
+        "height": 2340
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            205,
+            80,
+            331,
+            70
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1081,
+            1589,
+            215,
+            88
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1008,
+            459,
+            219,
+            87
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0045.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0045.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            606,
+            420,
+            387,
+            21
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            856,
+            395,
+            117,
+            47
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1152,
+            255,
+            125,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0025.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0025.png",
+      "image_size": {
+        "width": 1679,
+        "height": 2340
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            63,
+            728,
+            152,
+            152
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              139,
+              804
+            ],
+            "radius": 76
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1263,
+            1476,
+            305,
+            82
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1206,
+            527,
+            418,
+            418
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1415,
+              736
+            ],
+            "radius": 209
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0021.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0021.png",
+      "image_size": {
+        "width": 1679,
+        "height": 2340
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1049,
+            925,
+            217,
+            25
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            329,
+            1860,
+            282,
+            282
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              470,
+              2001
+            ],
+            "radius": 141
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1019,
+            1742,
+            162,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0005.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0005.png",
+      "image_size": {
+        "width": 1370,
+        "height": 1480
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            72,
+            344,
+            388,
+            388
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              266,
+              538
+            ],
+            "radius": 194
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            711,
+            1380,
+            263,
+            31
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            793,
+            1134,
+            284,
+            44
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0093.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0093.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            689,
+            1967,
+            198,
+            198
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              788,
+              2066
+            ],
+            "radius": 99
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1359,
+            333,
+            200,
+            27
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1283,
+            233,
+            188,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0065.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0065.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1168,
+            1215,
+            232,
+            55
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            116,
+            106,
+            253,
+            60
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1172,
+            1577,
+            327,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0095.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0095.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            992,
+            1151,
+            362,
+            362
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1173,
+              1332
+            ],
+            "radius": 181
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            112,
+            873,
+            332,
+            43
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            111,
+            2041,
+            150,
+            150
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              186,
+              2116
+            ],
+            "radius": 75
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0060.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0060.png",
+      "image_size": {
+        "width": 2164,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            695,
+            558,
+            231,
+            73
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            1429,
+            679,
+            115,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1429,
+            409,
+            429,
+            68
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0051.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0051.png",
+      "image_size": {
+        "width": 1695,
+        "height": 1553
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1373,
+            1217,
+            209,
+            36
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1255,
+            312,
+            191,
+            64
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1094,
+            353,
+            336,
+            81
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0011.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0011.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1043,
+            1001,
+            214,
+            214
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1150,
+              1108
+            ],
+            "radius": 107
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1067,
+            1523,
+            404,
+            404
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1269,
+              1725
+            ],
+            "radius": 202
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            651,
+            1011,
+            290,
+            25
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0019.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0019.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            515,
+            209,
+            138,
+            53
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            722,
+            946,
+            278,
+            22
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            196,
+            1525,
+            377,
+            59
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0017.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0017.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1294,
+            1660,
+            268,
+            31
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            332,
+            1485,
+            252,
+            252
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              458,
+              1611
+            ],
+            "radius": 126
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1308,
+            637,
+            213,
+            49
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0000.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0000.png",
+      "image_size": {
+        "width": 2257,
+        "height": 1764
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1027,
+            1644,
+            348,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            926,
+            236,
+            205,
+            44
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1028,
+            1444,
+            226,
+            55
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0015.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0015.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1077,
+            198,
+            169,
+            53
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            781,
+            1992,
+            336,
+            84
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            837,
+            1051,
+            186,
+            186
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              930,
+              1144
+            ],
+            "radius": 93
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0024.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0024.png",
+      "image_size": {
+        "width": 2156,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            418,
+            1066,
+            209,
+            38
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1814,
+            895,
+            171,
+            71
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1689,
+            1008,
+            176,
+            55
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0059.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0059.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            625,
+            775,
+            368,
+            39
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1064,
+            1975,
+            171,
+            53
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            862,
+            213,
+            332,
+            68
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0088.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0088.png",
+      "image_size": {
+        "width": 3238,
+        "height": 2136
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            2841,
+            1978,
+            168,
+            44
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            2473,
+            187,
+            367,
+            38
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            248,
+            159,
+            191,
+            47
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0003.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0003.png",
+      "image_size": {
+        "width": 808,
+        "height": 1077
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            275,
+            825,
+            317,
+            77
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            301,
+            592,
+            269,
+            55
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            232,
+            145,
+            245,
+            28
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0092.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0092.png",
+      "image_size": {
+        "width": 1784,
+        "height": 2284
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            848,
+            514,
+            154,
+            44
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1373,
+            1785,
+            134,
+            59
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            524,
+            863,
+            296,
+            49
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0070.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0070.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            53,
+            76,
+            246,
+            73
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            212,
+            248,
+            198,
+            66
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            981,
+            1926,
+            352,
+            69
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0029.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0029.png",
+      "image_size": {
+        "width": 2156,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            735,
+            1122,
+            349,
+            50
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            458,
+            855,
+            377,
+            52
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            615,
+            410,
+            367,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0007.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0007.png",
+      "image_size": {
+        "width": 1750,
+        "height": 2270
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            768,
+            522,
+            175,
+            36
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            656,
+            2186,
+            315,
+            38
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            417,
+            1797,
+            275,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0002.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0002.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            907,
+            237,
+            188,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1000,
+            1537,
+            316,
+            38
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1364,
+            231,
+            239,
+            20
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0037.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0037.png",
+      "image_size": {
+        "width": 2159,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            53,
+            333,
+            285,
+            71
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            957,
+            342,
+            209,
+            75
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1101,
+            163,
+            328,
+            328
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1265,
+              327
+            ],
+            "radius": 164
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0023.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0023.png",
+      "image_size": {
+        "width": 850,
+        "height": 1644
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            241,
+            1250,
+            166,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            503,
+            155,
+            194,
+            69
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            352,
+            1384,
+            137,
+            74
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0057.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0057.png",
+      "image_size": {
+        "width": 1695,
+        "height": 1553
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            280,
+            515,
+            273,
+            40
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            781,
+            421,
+            185,
+            54
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            137,
+            673,
+            322,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0053.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0053.png",
+      "image_size": {
+        "width": 2159,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1340,
+            1199,
+            285,
+            79
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1495,
+            243,
+            180,
+            52
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1133,
+            319,
+            189,
+            61
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0038.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0038.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            823,
+            351,
+            180,
+            180
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              913,
+              441
+            ],
+            "radius": 90
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            831,
+            1977,
+            235,
+            21
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            752,
+            1620,
+            300,
+            47
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0028.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0028.png",
+      "image_size": {
+        "width": 1695,
+        "height": 2200
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            461,
+            1609,
+            337,
+            76
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            705,
+            1714,
+            375,
+            23
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            419,
+            1821,
+            250,
+            250
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              544,
+              1946
+            ],
+            "radius": 125
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0001.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0001.png",
+      "image_size": {
+        "width": 808,
+        "height": 1077
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            45,
+            239,
+            368,
+            56
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            179,
+            877,
+            153,
+            62
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            41,
+            194,
+            370,
+            84
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0089.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0089.png",
+      "image_size": {
+        "width": 1768,
+        "height": 2266
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1390,
+            902,
+            162,
+            64
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1225,
+            825,
+            185,
+            50
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            324,
+            2140,
+            403,
+            78
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0033.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0033.png",
+      "image_size": {
+        "width": 1695,
+        "height": 2200
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            889,
+            1136,
+            367,
+            76
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1020,
+            1054,
+            148,
+            31
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            576,
+            2091,
+            128,
+            34
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0047.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0047.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1225,
+            286,
+            180,
+            180
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1315,
+              376
+            ],
+            "radius": 90
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            628,
+            1038,
+            330,
+            34
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            453,
+            1218,
+            150,
+            150
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              528,
+              1293
+            ],
+            "radius": 75
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0027.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0027.png",
+      "image_size": {
+        "width": 1679,
+        "height": 2340
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1123,
+            2133,
+            238,
+            238
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1242,
+              2252
+            ],
+            "radius": 119
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            830,
+            330,
+            393,
+            67
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            374,
+            1008,
+            285,
+            85
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0084.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0084.png",
+      "image_size": {
+        "width": 2284,
+        "height": 1786
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1395,
+            500,
+            412,
+            412
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1601,
+              706
+            ],
+            "radius": 206
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1942,
+            730,
+            191,
+            59
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1469,
+            12,
+            400,
+            400
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1669,
+              212
+            ],
+            "radius": 200
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0075.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0075.png",
+      "image_size": {
+        "width": 1791,
+        "height": 2289
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            498,
+            1427,
+            325,
+            22
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            974,
+            735,
+            356,
+            48
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            866,
+            852,
+            309,
+            68
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0043.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0043.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1067,
+            1832,
+            403,
+            59
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            424,
+            727,
+            426,
+            77
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1122,
+            1252,
+            394,
+            88
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0081.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0081.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1060,
+            1729,
+            181,
+            52
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            1257,
+            1180,
+            337,
+            47
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1026,
+            2158,
+            193,
+            31
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0098.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0098.png",
+      "image_size": {
+        "width": 1768,
+        "height": 2266
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            374,
+            273,
+            290,
+            69
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            470,
+            1910,
+            276,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1191,
+            715,
+            169,
+            41
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0086.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0086.png",
+      "image_size": {
+        "width": 3238,
+        "height": 2136
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            2188,
+            182,
+            404,
+            404
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              2390,
+              384
+            ],
+            "radius": 202
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1961,
+            635,
+            400,
+            400
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              2161,
+              835
+            ],
+            "radius": 200
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1386,
+            721,
+            250,
+            60
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0097.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0097.png",
+      "image_size": {
+        "width": 1768,
+        "height": 2266
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            155,
+            2078,
+            330,
+            67
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            536,
+            2020,
+            362,
+            362
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              717,
+              2201
+            ],
+            "radius": 181
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            243,
+            910,
+            230,
+            230
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              358,
+              1025
+            ],
+            "radius": 115
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0009.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0009.png",
+      "image_size": {
+        "width": 1750,
+        "height": 2270
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            961,
+            1496,
+            220,
+            220
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1071,
+              1606
+            ],
+            "radius": 110
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            110,
+            747,
+            303,
+            62
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            755,
+            1981,
+            308,
+            54
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0071.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0071.png",
+      "image_size": {
+        "width": 1791,
+        "height": 2289
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            492,
+            1118,
+            177,
+            78
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            398,
+            495,
+            315,
+            44
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            76,
+            1847,
+            396,
+            58
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0078.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0078.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1193,
+            1188,
+            158,
+            82
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            713,
+            1929,
+            218,
+            84
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            544,
+            933,
+            279,
+            68
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0014.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0014.png",
+      "image_size": {
+        "width": 850,
+        "height": 1644
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            483,
+            269,
+            271,
+            27
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            160,
+            782,
+            245,
+            48
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            498,
+            671,
+            191,
+            31
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0074.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0074.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            595,
+            1357,
+            341,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            705,
+            88,
+            380,
+            45
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1055,
+            766,
+            150,
+            34
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0068.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0068.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            104,
+            528,
+            241,
+            48
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1196,
+            1015,
+            317,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1260,
+            1514,
+            173,
+            43
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0048.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0048.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            727,
+            2010,
+            192,
+            192
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              823,
+              2106
+            ],
+            "radius": 96
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1421,
+            515,
+            125,
+            54
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            1413,
+            1393,
+            141,
+            36
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0061.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0061.png",
+      "image_size": {
+        "width": 1748,
+        "height": 2236
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1058,
+            776,
+            202,
+            67
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            163,
+            1869,
+            181,
+            27
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            897,
+            2046,
+            175,
+            49
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0030.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0030.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            908,
+            1264,
+            305,
+            25
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_pink"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            453,
+            1059,
+            394,
+            394
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              650,
+              1256
+            ],
+            "radius": 197
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            587,
+            738,
+            324,
+            324
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              749,
+              900
+            ],
+            "radius": 162
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0046.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0046.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            437,
+            220,
+            166,
+            48
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            481,
+            459,
+            255,
+            27
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_yellow"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            856,
+            2189,
+            176,
+            22
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0004.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0004.png",
+      "image_size": {
+        "width": 808,
+        "height": 1077
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            211,
+            740,
+            227,
+            70
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            233,
+            529,
+            269,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            503,
+            659,
+            116,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0008.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0008.png",
+      "image_size": {
+        "width": 850,
+        "height": 1644
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            423,
+            1222,
+            315,
+            71
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            295,
+            642,
+            142,
+            90
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            119,
+            233,
+            246,
+            246
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              242,
+              356
+            ],
+            "radius": 123
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0006.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0006.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            75,
+            2169,
+            219,
+            52
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            71,
+            1229,
+            243,
+            40
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1274,
+            807,
+            192,
+            192
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1370,
+              903
+            ],
+            "radius": 96
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0062.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0062.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            600,
+            1026,
+            406,
+            406
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              803,
+              1229
+            ],
+            "radius": 203
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            723,
+            522,
+            291,
+            51
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            357,
+            1546,
+            285,
+            45
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0072.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0072.png",
+      "image_size": {
+        "width": 1791,
+        "height": 2289
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1182,
+            1062,
+            150,
+            150
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1257,
+              1137
+            ],
+            "radius": 75
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1036,
+            58,
+            227,
+            52
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "highlight",
+          "bbox": [
+            673,
+            613,
+            285,
+            48
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "highlight_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0035.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0035.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            76,
+            821,
+            262,
+            262
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              207,
+              952
+            ],
+            "radius": 131
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1350,
+            673,
+            138,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            487,
+            2099,
+            273,
+            83
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0099.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0099.png",
+      "image_size": {
+        "width": 1711,
+        "height": 2289
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            320,
+            635,
+            222,
+            222
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              431,
+              746
+            ],
+            "radius": 111
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1166,
+            538,
+            245,
+            26
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            875,
+            1236,
+            422,
+            422
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1086,
+              1447
+            ],
+            "radius": 211
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0069.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0069.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            930,
+            5,
+            408,
+            408
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1134,
+              209
+            ],
+            "radius": 204
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            299,
+            1129,
+            379,
+            75
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            289,
+            1387,
+            352,
+            71
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0083.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0083.png",
+      "image_size": {
+        "width": 2284,
+        "height": 1786
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1525,
+            39,
+            311,
+            90
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1919,
+            1180,
+            251,
+            74
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            1884,
+            221,
+            214,
+            20
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0094.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0094.png",
+      "image_size": {
+        "width": 1784,
+        "height": 2284
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            61,
+            506,
+            428,
+            428
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              275,
+              720
+            ],
+            "radius": 214
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            405,
+            1668,
+            209,
+            51
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1197,
+            179,
+            308,
+            308
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1351,
+              333
+            ],
+            "radius": 154
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0012.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0012.png",
+      "image_size": {
+        "width": 1701,
+        "height": 2386
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "double_underline",
+          "bbox": [
+            561,
+            1536,
+            103,
+            35
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": true
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1067,
+            374,
+            218,
+            218
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              1176,
+              483
+            ],
+            "radius": 109
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            369,
+            252,
+            206,
+            42
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0054.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0054.png",
+      "image_size": {
+        "width": 2159,
+        "height": 1695
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            270,
+            1357,
+            179,
+            62
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            771,
+            1003,
+            420,
+            420
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              981,
+              1213
+            ],
+            "radius": 210
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            531,
+            1466,
+            234,
+            69
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0050.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0050.png",
+      "image_size": {
+        "width": 1695,
+        "height": 1553
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            429,
+            639,
+            189,
+            37
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            605,
+            1007,
+            152,
+            152
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              681,
+              1083
+            ],
+            "radius": 76
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1107,
+            372,
+            158,
+            65
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0026.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0026.png",
+      "image_size": {
+        "width": 1679,
+        "height": 2340
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            596,
+            1262,
+            359,
+            79
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "circle",
+          "bbox": [
+            38,
+            768,
+            384,
+            384
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_green",
+            "center": [
+              230,
+              960
+            ],
+            "radius": 192
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            607,
+            485,
+            376,
+            70
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_green"
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0034.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0034.png",
+      "image_size": {
+        "width": 1653,
+        "height": 2339
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1206,
+            488,
+            188,
+            57
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        },
+        {
+          "markup_type": "rectangle",
+          "bbox": [
+            1001,
+            1410,
+            404,
+            78
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "rectangle_blue"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            193,
+            875,
+            103,
+            73
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    },
+    {
+      "source_image": "data/docvqa_samples/docvqa_0067.png",
+      "output_image": "data/docvqa_with_markups/marked_docvqa_0067.png",
+      "image_size": {
+        "width": 1685,
+        "height": 2191
+      },
+      "num_markups": 3,
+      "annotations": [
+        {
+          "markup_type": "circle",
+          "bbox": [
+            1013,
+            -1,
+            276,
+            276
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "circle_red",
+            "center": [
+              1151,
+              137
+            ],
+            "radius": 138
+          }
+        },
+        {
+          "markup_type": "strikethrough",
+          "bbox": [
+            267,
+            950,
+            137,
+            51
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red"
+          }
+        },
+        {
+          "markup_type": "underline",
+          "bbox": [
+            1032,
+            896,
+            337,
+            43
+          ],
+          "confidence": 1.0,
+          "properties": {
+            "color": "underline_red",
+            "double": false
+          }
+        }
+      ]
+    }
+  ]
+}

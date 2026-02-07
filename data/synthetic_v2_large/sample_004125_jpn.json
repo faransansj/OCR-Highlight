@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_004125_jpn.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        186,
+        105,
+        10
+      ],
+      "text": "コンピュータビジョンは人工知能の分野です。",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "jpn",
+    "num_lines": 6,
+    "num_markups": 1,
+    "index": 4125
+  }
+}

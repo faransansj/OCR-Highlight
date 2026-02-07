@@ -1,0 +1,27 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_004147_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "pink",
+      "bbox": [
+        50,
+        173,
+        85,
+        7
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": [
+        255,
+        182,
+        193
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 4,
+    "num_markups": 1,
+    "index": 4147
+  }
+}

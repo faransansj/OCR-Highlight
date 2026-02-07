@@ -1,0 +1,47 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_009793_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        66,
+        80,
+        10
+      ],
+      "text": "深度神经网络彻底改变了图像处理。",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        186,
+        85,
+        4
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        186,
+        85,
+        10
+      ],
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 3,
+    "num_markups": 3,
+    "index": 9793
+  }
+}

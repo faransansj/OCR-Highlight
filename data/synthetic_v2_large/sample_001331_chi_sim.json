@@ -1,0 +1,43 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_001331_chi_sim.png",
+  "annotations": [
+    {
+      "markup_type": "highlight",
+      "subtype": "blue",
+      "bbox": [
+        50,
+        113,
+        80,
+        7
+      ],
+      "text": "计算机视觉是人工智能的一个领域。",
+      "color": [
+        173,
+        216,
+        230
+      ]
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        113,
+        80,
+        7
+      ],
+      "text": "计算机视觉是人工智能的一个领域。",
+      "color": [
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "language": "chi_sim",
+    "num_lines": 5,
+    "num_markups": 2,
+    "index": 1331
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image_path": "data/synthetic_v2_large/sample_004157_kor.png",
+  "annotations": [
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        218,
+        171,
+        37
+      ],
+      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
+      "color": null
+    }
+  ],
+  "metadata": {
+    "language": "kor",
+    "num_lines": 7,
+    "num_markups": 1,
+    "index": 4157
+  }
+}
