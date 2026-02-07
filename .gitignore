@@ -1,39 +1,26 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-dist/
-*.egg-info/
+# Training logs
+training.log
+training_cpu.log
+training_preprocessed.log
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# YOLO runs directory
+runs/
 
-# Data
-data/synthetic/*.jpg
-data/synthetic/*.png
-data/validation/*.jpg
-data/validation/*.png
-data/test/*.jpg
-data/test/*.png
+# Pretrained weights
+yolo*.pt
 
-# Outputs
-outputs/*.jpg
-outputs/*.png
-outputs/*.json
-outputs/*.csv
+# Cache files
+*.cache
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Failed training scripts (keep only MPS version)
+train_yolo_cpu_final.py
+train_yolo_gfx1100.py
+train_yolo_gpu.py
+train_yolo_gpu_fix.py
+train_yolo_gpu_working.py
 
-# OS
-.DS_Store
-Thumbs.db
+# Preprocessed dataset (too large for git)
+data/yolo_dataset_preprocessed/
+
+# Final model (add separately if needed)
+final_model/*.pt
