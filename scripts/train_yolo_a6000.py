@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 YOLOv8 Ultra High Performance Training for NVIDIA RTX A6000
 - Architecture: YOLOv8l (Large)
