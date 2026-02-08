@@ -18,10 +18,10 @@ model = YOLO('yolov8l.pt')
 # 2. Start Full Power Training
 # A6000's 48GB VRAM can easily handle imgsz=1280 and large batches
 results = model.train(
-    data='data/dataset.yaml',      # Ensure paths are correct
+    data='data/yolo_dataset/dataset.yaml',      # Ensure paths are correct
     epochs=100,                    # Sufficient iterations for deep learning
     imgsz=1280,                    # Ultra high resolution for small markups
-    batch=32,                      # High batch size for gradient stability
+    batch=16,                      # Reduced from 32 to avoid CUDA OOM with Large model at 1280px
     device=0,                      # Primary NVIDIA GPU
     project='markup_detector_a6000',
     name='v2_large_model_1280',
@@ -30,7 +30,7 @@ results = model.train(
     amp=True,                      # Automatic Mixed Precision for speed
     mosaic=1.0,                    # Heavy data augmentation
     mixup=0.2,                     # Advanced augmentation
-    workers=8,                     # Maximize CPU data loading threads
+    workers=6,                     # Recommended number of workers for this system
     verbose=True
 )
 

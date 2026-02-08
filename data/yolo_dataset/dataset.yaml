@@ -5,6 +5,6 @@ names:
 - circle
 - rectangle
 nc: 5
-path: /root/.openclaw/workspace/ocr-highlight-v2/data/yolo_dataset
+path: /home/rintern19/OCR-Highlight/data/yolo_dataset
 train: train/images
 val: val/images
