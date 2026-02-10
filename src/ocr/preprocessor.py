@@ -27,49 +27,40 @@ class OCRPreprocessor:
         if image is None or image.size == 0:
             return image
 
-        # 1. Convert to HLS to better separate color from luminosity
-        hls = cv2.cvtColor(image, cv2.COLOR_BGR2HLS)
-        h, l, s = cv2.split(hls)
+        # 1. Basic Grayscale
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         
-        # 2. Extract Luminosity (L channel) - often has best contrast for text
-        # But for bright highlights, the background might be too bright
-        
-        # 3. Targeted color removal (The "Purify" spell)
-        # We want to boost contrast between black text and colored background
+        # 2. Targeted color removal using HLS/HSV (The "Purify" spell)
         if color_hint:
-            # Create a mask for the highlight color
-            # Typical HSV/HLS ranges for highlights:
-            # Yellow: H=30, Pink: H=150-170, Green: H=60, Blue: H=100-120
+            hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+            h, s, v = cv2.split(hsv)
             
-            # Simple approach: use the L channel but enhance it
-            # High-pass filter to remove slow background variations
-            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            
-            # CLAHE (Contrast Limited Adaptive Histogram Equalization)
-            clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
-            enhanced = clahe.apply(gray)
-            
-            # Denoising
-            denoised = cv2.fastNlMeansDenoising(enhanced, h=10)
-            
-            # For very specific colors, we can do background subtraction in HLS space
-            if color_hint == 'pink' or color_hint == 'red':
-                # Pink is tough, often overlaps with black text in simple grayscale
-                # Use L channel and threshold aggressively
-                _, thresh = cv2.threshold(l, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-                return thresh
+            # Special logic for problematic colors
+            if color_hint in ['pink', 'red']:
+                # Pink is tough. The text is black, background is light red/pink.
+                # Use adaptive threshold on Value channel with high block size
+                # This helps preserve the "blackness" of text regardless of background
+                return cv2.adaptiveThreshold(v, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+                                           cv2.THRESH_BINARY, 21, 10)
                 
+            elif color_hint == 'green':
+                # Green sometimes overlaps with black in grayscale.
+                # Using the V channel from HSV usually works better than simple gray.
+                return cv2.adaptiveThreshold(v, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+                                           cv2.THRESH_BINARY, 11, 5)
+            
             elif color_hint == 'yellow':
-                # Yellow is bright, simple grayscale + contrast boost works well
-                return enhanced
-                
-            return denoised
-        else:
-            # Standard cleanup
-            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            denoised = cv2.GaussianBlur(gray, (3, 3), 0)
-            _, thresh = cv2.threshold(denoised, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-            return thresh
+                # Yellow is bright, standard grayscale + CLAHE works best
+                clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8,8))
+                return clahe.apply(gray)
+        
+        # Default cleanup for other colors or no hint
+        # Mix of V channel and CLAHE for best results
+        hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+        v = hsv[:,:,2]
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8,8))
+        enhanced = clahe.apply(v)
+        return enhanced
 
     @staticmethod
     def remove_lines(image: np.ndarray) -> np.ndarray:
@@ -77,8 +68,6 @@ class OCRPreprocessor:
         Spell to remove underlines or strikethroughs while keeping text
         Useful when OCR gets confused by horizontal lines
         """
-        # Morphological operations to detect and remove horizontal lines
-        # This is high-level magic!
         if len(image.shape) == 3:
             gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         else:
@@ -92,7 +81,6 @@ class OCRPreprocessor:
         detected_lines = cv2.morphologyEx(binary, cv2.MORPH_OPEN, horizontal_kernel, iterations=2)
         
         # Remove lines from original binary
-        # We use bitwise XOR to remove, then invert back
         cleaned_inv = cv2.bitwise_and(binary, cv2.bitwise_not(detected_lines))
         cleaned = cv2.bitwise_not(cleaned_inv)
         

@@ -1,6 +1,6 @@
 """
 Multi-engine OCR Module
-Integrates Tesseract, EasyOCR, and PaddleOCR with specialized preprocessing
+Integrates Tesseract, EasyOCR, and PaddleOCR with specialized preprocessing and ensemble logic
 """
 
 import cv2
@@ -11,6 +11,7 @@ from dataclasses import dataclass
 import logging
 import re
 from .preprocessor import OCRPreprocessor
+from .ensemble import WeightedEnsemble
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -51,7 +52,7 @@ class MultiOCREngine:
         # Default to English if alphanumeric
         if re.search(r'[a-zA-Z]', text):
             return 'en'
-        return 'en' # Default to en
+        return 'en'
 
     def __init__(
         self,
@@ -69,6 +70,7 @@ class MultiOCREngine:
         self.use_gpu = use_gpu
         self.use_preprocessing = use_preprocessing
         self.preprocessor = OCRPreprocessor()
+        self.ensemble_manager = WeightedEnsemble()
 
         # Cache for initialized readers
         self._easyocr_readers = {}
@@ -132,7 +134,7 @@ class MultiOCREngine:
         # Apply preprocessing magic
         if self.use_preprocessing:
             processed = self.preprocessor.clean_region(image, color_hint)
-            # If preprocessor returned grayscale but engine needs BGR (EasyOCR/PaddleOCR sometimes prefer 3ch)
+            # If preprocessor returned grayscale but engine needs BGR
             if len(processed.shape) == 2 and engine != 'tesseract':
                 processed = cv2.cvtColor(processed, cv2.COLOR_GRAY2BGR)
         else:
@@ -228,15 +230,13 @@ class MultiOCREngine:
                         lang: Optional[str] = None,
                         color_hint: Optional[str] = None) -> List[OCRResult]:
         """
-        Run multiple engines and combine results using IoU-based merging and voting
+        Run multiple engines and combine results using IoU-based merging and weighted voting
         """
-        # First pass: use language hint or default to Korean
         target_lang = lang or 'ko'
         all_raw_results = []
         for eng_name in self.default_engines:
             all_raw_results.extend(self.extract_text(image, engine=eng_name, lang=target_lang, color_hint=color_hint))
         
-        # Auto-detect language if not specified and re-run if necessary
         if lang is None and all_raw_results:
             combined_text = ' '.join(r.text for r in all_raw_results)
             detected_lang = self.detect_language(combined_text)
@@ -245,6 +245,7 @@ class MultiOCREngine:
                 all_raw_results = []
                 for eng_name in self.default_engines:
                     all_raw_results.extend(self.extract_text(image, engine=eng_name, lang=detected_lang, color_hint=color_hint))
+                target_lang = detected_lang
         
         if not all_raw_results:
             return []
@@ -270,8 +271,17 @@ class MultiOCREngine:
                     cluster.append(all_raw_results[j])
                     used_indices.add(j)
             
-            # Select best text from cluster (Voting based)
+            # Weighted selection from cluster
+            # First, multiply confidence by engine-language weight
+            for res in cluster:
+                weight = self.ensemble_manager.WEIGHTS.get(target_lang, {}).get(res.engine, 1.0)
+                res.confidence *= weight
+            
+            # Sort cluster again by weighted confidence
+            cluster.sort(key=lambda x: x.confidence, reverse=True)
             best_res = cluster[0]
+            
+            # Voting agreement bonus
             text_votes = {}
             for res in cluster:
                 norm_text = res.text.replace(" ", "").lower()
@@ -279,12 +289,17 @@ class MultiOCREngine:
             
             majority_norm = max(text_votes, key=text_votes.get)
             if text_votes[majority_norm] > 1:
-                for res in cluster:
-                    if res.text.replace(" ", "").lower() == majority_norm:
-                        best_res = res
-                        best_res.confidence = min(1.0, best_res.confidence + 0.05 * (text_votes[majority_norm] - 1))
-                        break
+                best_res.confidence = min(2.0, best_res.confidence + 0.1)
             
             merged_results.append(best_res)
             
         return merged_results
+
+if __name__ == "__main__":
+    # Quick test
+    engine = MultiOCREngine(default_engines=['easyocr'], languages=['ko', 'en'])
+    test_img = np.ones((100, 300, 3), dtype=np.uint8) * 255
+    cv2.putText(test_img, "Test Text", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,0), 2)
+    
+    res = engine.ensemble_extract(test_img)
+    print(f"Detected: {res}")
