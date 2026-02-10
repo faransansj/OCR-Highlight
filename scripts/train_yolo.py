@@ -102,6 +102,15 @@ def train_markup_detector(
     print("="*60)
     print()
     
+    # Rename best.pt to prevent confusion with base model weights
+    best_path = Path(project) / name / 'weights' / 'best.pt'
+    target_path = Path(project) / name / 'weights' / f'markup_detector_{model_size}_best.pt'
+    
+    if best_path.exists():
+        import shutil
+        shutil.copy(best_path, target_path)
+        print(f"✅ Success! Renamed best model to: {target_path}")
+
     # Save training summary
     summary = {
         'model': model_name,
@@ -115,7 +124,7 @@ def train_markup_detector(
             'precision': float(results.results_dict.get('metrics/precision(B)', 0)),
             'recall': float(results.results_dict.get('metrics/recall(B)', 0)),
         },
-        'best_model': str(Path(project) / name / 'weights' / 'best.pt')
+        'best_model': str(target_path)
     }
     
     summary_path = Path(project) / name / 'training_summary.json'
