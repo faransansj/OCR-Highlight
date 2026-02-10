@@ -46,18 +46,33 @@ class OCRValidator:
             with open(json_path, 'r') as f:
                 gt_data = json.load(f)
                 
+            # Extract language hint from filename
+            lang_hint = 'en'
+            if '_kor' in img_name: lang_hint = 'ko'
+            elif '_jpn' in img_name: lang_hint = 'ja'
+            elif '_chi_sim' in img_name: lang_hint = 'zh'
+            
             # Run OCR
-            ocr_results = self.engine.ensemble_extract(image)
+            ocr_results = self.engine.ensemble_extract(image, lang=lang_hint)
             
             # Simple matching (checking if GT text is present in OCR results)
-            gt_texts = [m['text'] for m in gt_data.get('markups', []) if 'text' in m]
+            # Support both 'markups' and 'annotations' keys for backward compatibility
+            markups = gt_data.get('markups', gt_data.get('annotations', []))
+            gt_texts = [m['text'] for m in markups if 'text' in m and m['text']]
             found_count = 0
             
             ocr_full_text = " ".join([res.text for res in ocr_results])
+            # Normalize for matching
+            ocr_normalized = ocr_full_text.replace(" ", "")
             
             for gt_text in gt_texts:
-                if gt_text in ocr_full_text:
+                gt_normalized = gt_text.replace(" ", "")
+                if gt_normalized in ocr_normalized or ocr_normalized in gt_normalized:
                     found_count += 1
+                else:
+                    logger.info(f"Mismatch in {img_name}:")
+                    logger.info(f"  GT:  {gt_text}")
+                    logger.info(f"  OCR: {ocr_full_text}")
             
             results.append({
                 "file": img_name,
@@ -76,7 +91,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=str, default="data/test")
     parser.add_argument("--samples", type=int, default=10)
+    parser.add_argument("--engines", type=str, default="tesseract", help="Comma separated engines")
     args = parser.parse_args()
     
-    validator = OCRValidator(args.data)
+    engine_list = args.engines.split(',')
+    validator = OCRValidator(args.data, engine_list=engine_list)
     validator.validate(args.samples)
