@@ -36,4 +36,12 @@ results = model.train(
 )
 
 print("\n✅ Excalibur Training Completed!")
-print(f"Legendary Model: markup_detector_a6000/v2_large_model_1280/weights/best.pt")
+best_path = 'markup_detector_a6000/v2_large_model_1280/weights/best.pt'
+target_path = 'markup_detector_a6000/v2_large_model_1280/weights/markup_detector_l_best.pt'
+
+if os.path.exists(best_path):
+    import shutil
+    shutil.copy(best_path, target_path)
+    print(f"Legendary Model Saved: {target_path}")
+else:
+    print(f"Warning: best.pt not found at {best_path}")
