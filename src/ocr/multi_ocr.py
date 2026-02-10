@@ -23,8 +23,26 @@ class OCRResult:
     engine: str
     language: str
 
+import re
+
 class MultiOCREngine:
     """Multi-engine OCR wrapper supporting Tesseract, EasyOCR, and PaddleOCR"""
+
+    def detect_language(self, text: str) -> str:
+        """Detect language based on character sets (simple regex approach)"""
+        # Korean (Hangul)
+        if re.search(r'[\uac00-\ud7af]', text):
+            return 'ko'
+        # Japanese (Hiragana/Katakana)
+        if re.search(r'[\u3040-\u30ff]', text):
+            return 'ja'
+        # Chinese (CJK Unified Ideographs - checking for common Han)
+        if re.search(r'[\u4e00-\u9fff]', text):
+            return 'zh'
+        # Default to English if alphanumeric
+        if re.search(r'[a-zA-Z]', text):
+            return 'en'
+        return 'unknown'
 
     def __init__(
         self,
@@ -194,16 +212,83 @@ class MultiOCREngine:
 
         return results
 
-    def ensemble_extract(self, image: np.ndarray) -> List[OCRResult]:
-        """
-        Run multiple engines and combine results (Simple version: Union)
-        """
-        all_results = []
-        for eng in self.default_engines:
-            all_results.extend(self.extract_text(image, engine=eng))
+    def _calculate_iou(self, bbox1: List[int], bbox2: List[int]) -> float:
+        """Calculate Intersection over Union of two bboxes [x, y, w, h]"""
+        x1, y1, w1, h1 = bbox1
+        x2, y2, w2, h2 = bbox2
         
-        # TODO: Implement sophisticated ensemble (IoU merging + voting)
-        return all_results
+        xi1 = max(x1, x2)
+        yi1 = max(y1, y2)
+        xi2 = min(x1 + w1, x2 + w2)
+        yi2 = min(y1 + h1, y2 + h2)
+        
+        inter_area = max(0, xi2 - xi1) * max(0, yi2 - yi1)
+        union_area = (w1 * h1) + (w2 * h2) - inter_area
+        
+        return inter_area / union_area if union_area > 0 else 0
+
+    def ensemble_extract(self, image: np.ndarray, iou_threshold: float = 0.5) -> List[OCRResult]:
+        """
+        Run multiple engines and combine results using IoU-based merging and voting
+        
+        Args:
+            image: Input image
+            iou_threshold: IoU threshold for merging boxes
+            
+        Returns:
+            Merged OCR results
+        """
+        all_raw_results = []
+        for eng_name in self.default_engines:
+            all_raw_results.extend(self.extract_text(image, engine=eng_name))
+        
+        if not all_raw_results:
+            return []
+
+        # Sort by confidence descending
+        all_raw_results.sort(key=lambda x: x.confidence, reverse=True)
+        
+        merged_results = []
+        used_indices = set()
+        
+        for i in range(len(all_raw_results)):
+            if i in used_indices:
+                continue
+            
+            cluster = [all_raw_results[i]]
+            used_indices.add(i)
+            
+            for j in range(i + 1, len(all_raw_results)):
+                if j in used_indices:
+                    continue
+                
+                if self._calculate_iou(all_raw_results[i].bbox, all_raw_results[j].bbox) > iou_threshold:
+                    cluster.append(all_raw_results[j])
+                    used_indices.add(j)
+            
+            # Select best text from cluster (Majority vote or highest confidence)
+            # For now, highest confidence (first in sorted cluster)
+            best_res = cluster[0]
+            
+            # If multiple engines agree on the same text, boost confidence
+            text_votes = {}
+            for res in cluster:
+                text_votes[res.text] = text_votes.get(res.text, 0) + 1
+            
+            # Find most frequent text
+            majority_text = max(text_votes, key=text_votes.get)
+            if text_votes[majority_text] > 1:
+                # Use majority text if agreement exists
+                for res in cluster:
+                    if res.text == majority_text:
+                        best_res = res
+                        # Boost confidence slightly for agreement
+                        best_res.confidence = min(1.0, best_res.confidence + 0.05 * (text_votes[majority_text] - 1))
+                        break
+            
+            merged_results.append(best_res)
+            
+        return merged_results
 
 if __name__ == "__main__":
     # Quick test
