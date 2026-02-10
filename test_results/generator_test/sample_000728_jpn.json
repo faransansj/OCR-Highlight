@@ -3,44 +3,44 @@
   "annotations": [
     {
       "markup_type": "underline",
-      "subtype": "single",
-      "bbox": [
-        50,
-        63,
-        135,
-        4
-      ],
-      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
-      "color": null
-    },
-    {
-      "markup_type": "underline",
       "subtype": "double",
       "bbox": [
         50,
-        63,
-        135,
+        126,
+        105,
         10
       ],
-      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     },
     {
-      "markup_type": "strikethrough",
-      "subtype": "single",
+      "markup_type": "circle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        112,
-        140,
-        8
+        35,
+        49,
+        134,
+        134
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        98,
+        135,
+        37
+      ],
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     }
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 7,
+    "num_lines": 8,
     "num_markups": 3,
     "index": 728
   }

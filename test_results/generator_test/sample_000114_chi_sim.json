@@ -2,15 +2,27 @@
   "image_path": "test_results/generator_test/sample_000114_chi_sim.png",
   "annotations": [
     {
-      "markup_type": "strikethrough",
-      "subtype": "double",
+      "markup_type": "circle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        52,
-        85,
-        8
+        35,
+        61,
+        110,
+        110
       ],
-      "text": "机器学习算法可以检测数据中的模式。",
+      "text": "深度神经网络彻底改变了图像处理。",
+      "color": null
+    },
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        61,
+        110,
+        110
+      ],
+      "text": "深度神经网络彻底改变了图像处理。",
       "color": null
     },
     {
@@ -18,7 +30,7 @@
       "subtype": "double",
       "bbox": [
         50,
-        52,
+        172,
         85,
         8
       ],
@@ -28,8 +40,8 @@
   ],
   "metadata": {
     "language": "chi_sim",
-    "num_lines": 8,
-    "num_markups": 2,
+    "num_lines": 4,
+    "num_markups": 3,
     "index": 114
   }
 }

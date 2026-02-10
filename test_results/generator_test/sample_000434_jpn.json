@@ -2,34 +2,22 @@
   "image_path": "test_results/generator_test/sample_000434_jpn.png",
   "annotations": [
     {
-      "markup_type": "underline",
-      "subtype": "double",
-      "bbox": [
-        50,
-        183,
-        135,
-        10
-      ],
-      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
-      "color": null
-    },
-    {
-      "markup_type": "rectangle",
+      "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        163,
-        155,
-        27
+        35,
+        91,
+        170,
+        170
       ],
-      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
       "color": null
     }
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 4,
-    "num_markups": 2,
+    "num_lines": 3,
+    "num_markups": 1,
     "index": 434
   }
 }

@@ -3,14 +3,14 @@
   "annotations": [
     {
       "markup_type": "underline",
-      "subtype": "double",
+      "subtype": "single",
       "bbox": [
         50,
-        185,
-        265,
-        10
+        188,
+        226,
+        4
       ],
-      "text": "Object detection is a fundamental task in computer vision.",
+      "text": "Computer vision is a field of artificial intelligence.",
       "color": null
     }
   ],

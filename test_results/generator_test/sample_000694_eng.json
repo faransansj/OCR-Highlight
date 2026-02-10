@@ -5,18 +5,18 @@
       "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        154,
-        284,
-        284
+        35,
+        -109,
+        330,
+        330
       ],
-      "text": "Object detection is a fundamental task in computer vision.",
+      "text": "Optical character recognition enables text extraction from images.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 7,
+    "num_lines": 4,
     "num_markups": 1,
     "index": 694
   }

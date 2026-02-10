@@ -2,54 +2,34 @@
   "image_path": "test_results/generator_test/sample_000002_kor.png",
   "annotations": [
     {
-      "markup_type": "rectangle",
+      "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        103,
-        161,
-        27
+        35,
+        -6,
+        124,
+        124
       ],
-      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
       "color": null
     },
     {
-      "markup_type": "highlight",
-      "subtype": "blue",
+      "markup_type": "rectangle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        113,
-        141,
-        7
+        35,
+        158,
+        171,
+        37
       ],
       "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
-      "color": [
-        173,
-        216,
-        230
-      ]
-    },
-    {
-      "markup_type": "highlight",
-      "subtype": "orange",
-      "bbox": [
-        50,
-        173,
-        134,
-        7
-      ],
-      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
-      "color": [
-        255,
-        200,
-        124
-      ]
+      "color": null
     }
   ],
   "metadata": {
     "language": "kor",
-    "num_lines": 4,
-    "num_markups": 3,
+    "num_lines": 3,
+    "num_markups": 2,
     "index": 2
   }
 }

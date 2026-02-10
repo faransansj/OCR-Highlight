@@ -1,6 +1,6 @@
 """
 Multi-engine OCR Module
-Integrates Tesseract, EasyOCR, and PaddleOCR
+Integrates Tesseract, EasyOCR, and PaddleOCR with specialized preprocessing
 """
 
 import cv2
@@ -9,6 +9,8 @@ import pytesseract
 from typing import List, Dict, Optional, Tuple, Union
 from dataclasses import dataclass
 import logging
+import re
+from .preprocessor import OCRPreprocessor
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -23,7 +25,14 @@ class OCRResult:
     engine: str
     language: str
 
-import re
+# Language code mappings for different engines
+LANG_MAP = {
+    'ko':     {'tesseract': 'kor',     'easyocr': 'ko',     'paddleocr': 'korean'},
+    'en':     {'tesseract': 'eng',     'easyocr': 'en',     'paddleocr': 'en'},
+    'ja':     {'tesseract': 'jpn',     'easyocr': 'ja',     'paddleocr': 'japan'},
+    'zh':     {'tesseract': 'chi_sim', 'easyocr': 'ch_sim', 'paddleocr': 'ch'},
+    'ch_sim': {'tesseract': 'chi_sim', 'easyocr': 'ch_sim', 'paddleocr': 'ch'},
+}
 
 class MultiOCREngine:
     """Multi-engine OCR wrapper supporting Tesseract, EasyOCR, and PaddleOCR"""
@@ -42,26 +51,24 @@ class MultiOCREngine:
         # Default to English if alphanumeric
         if re.search(r'[a-zA-Z]', text):
             return 'en'
-        return 'unknown'
+        return 'en' # Default to en
 
     def __init__(
         self,
         default_engines: List[str] = ['easyocr', 'paddleocr'],
-        languages: List[str] = ['ko', 'en', 'ja', 'ch_sim'],
-        use_gpu: bool = False
+        languages: List[str] = ['ko', 'en', 'ja', 'zh'],
+        use_gpu: bool = False,
+        use_preprocessing: bool = True
     ):
         """
         Initialize Multi-engine OCR
-
-        Args:
-            default_engines: List of engines to use ('tesseract', 'easyocr', 'paddleocr')
-            languages: List of languages ('ko', 'en', 'ja', 'ch_sim')
-            use_gpu: Whether to use GPU for EasyOCR/PaddleOCR
         """
         self.engines = {}
         self.default_engines = default_engines
         self.languages = languages
         self.use_gpu = use_gpu
+        self.use_preprocessing = use_preprocessing
+        self.preprocessor = OCRPreprocessor()
 
         # Cache for initialized readers
         self._easyocr_readers = {}
@@ -70,13 +77,7 @@ class MultiOCREngine:
         # Initialize Tesseract if requested
         if 'tesseract' in default_engines:
             try:
-                tess_langs = []
-                for lang in languages:
-                    if lang == 'ko': tess_langs.append('kor')
-                    elif lang == 'en': tess_langs.append('eng')
-                    elif lang == 'ja': tess_langs.append('jpn')
-                    elif lang == 'ch_sim': tess_langs.append('chi_sim')
-                
+                tess_langs = [LANG_MAP[l]['tesseract'] for l in languages if l in LANG_MAP]
                 self.tess_lang_str = '+'.join(tess_langs)
                 pytesseract.get_tesseract_version()
                 self.engines['tesseract'] = True
@@ -84,13 +85,14 @@ class MultiOCREngine:
                 pass
 
     def _get_easyocr_reader(self, lang: str):
+        # Normalize lang
+        lang = 'zh' if lang == 'ch_sim' else lang
         if lang not in self._easyocr_readers:
             try:
                 import easyocr
-                # EasyOCR allows mixing en with one of CJK
                 langs = ['en']
-                if lang in ['ko', 'ja', 'ch_sim']:
-                    langs.append(lang)
+                if lang in LANG_MAP and lang != 'en':
+                    langs.append(LANG_MAP[lang]['easyocr'])
                 
                 logger.info(f"Initializing EasyOCR for {langs}")
                 self._easyocr_readers[lang] = easyocr.Reader(langs, gpu=self.use_gpu)
@@ -100,17 +102,14 @@ class MultiOCREngine:
         return self._easyocr_readers.get(lang)
 
     def _get_paddle_reader(self, lang: str):
+        # Normalize lang
+        lang = 'zh' if lang == 'ch_sim' else lang
         if lang not in self._paddle_readers:
             try:
                 from paddleocr import PaddleOCR
-                paddle_lang = 'korean'
-                if lang == 'ja': paddle_lang = 'japan'
-                elif lang == 'zh' or lang == 'ch_sim': paddle_lang = 'ch'
-                elif lang == 'en': paddle_lang = 'en'
+                paddle_lang = LANG_MAP.get(lang, {}).get('paddleocr', 'korean')
                 
                 logger.info(f"Initializing PaddleOCR for {paddle_lang}")
-                # PaddleOCR 3.x might not use use_gpu in constructor directly or via kwargs
-                # Attempting standard initialization
                 self._paddle_readers[lang] = PaddleOCR(use_angle_cls=True, lang=paddle_lang)
             except Exception as e:
                 logger.error(f"Failed to init PaddleOCR for {lang}: {e}")
@@ -121,18 +120,30 @@ class MultiOCREngine:
         self,
         image: np.ndarray,
         engine: Optional[str] = None,
-        lang: Optional[str] = 'ko' # Default to ko
+        lang: Optional[str] = 'ko',
+        color_hint: Optional[str] = None
     ) -> List[OCRResult]:
         """
         Extract text using specified engine
         """
         engine = engine or self.default_engines[0]
+        lang = lang or 'ko'
+        
+        # Apply preprocessing magic
+        if self.use_preprocessing:
+            processed = self.preprocessor.clean_region(image, color_hint)
+            # If preprocessor returned grayscale but engine needs BGR (EasyOCR/PaddleOCR sometimes prefer 3ch)
+            if len(processed.shape) == 2 and engine != 'tesseract':
+                processed = cv2.cvtColor(processed, cv2.COLOR_GRAY2BGR)
+        else:
+            processed = image
+
         results = []
 
         if engine == 'tesseract':
             try:
                 data = pytesseract.image_to_data(
-                    image, 
+                    processed, 
                     lang=self.tess_lang_str, 
                     config='--psm 6',
                     output_type=pytesseract.Output.DICT
@@ -147,7 +158,7 @@ class MultiOCREngine:
                             confidence=conf/100.0,
                             bbox=[x, y, w, h],
                             engine='tesseract',
-                            language=lang or 'unknown'
+                            language=lang
                         ))
             except Exception:
                 pass
@@ -156,7 +167,7 @@ class MultiOCREngine:
             reader = self._get_easyocr_reader(lang)
             if reader:
                 try:
-                    raw_results = reader.readtext(image)
+                    raw_results = reader.readtext(processed)
                     for (bbox, text, conf) in raw_results:
                         x_min = int(min([p[0] for p in bbox]))
                         y_min = int(min([p[1] for p in bbox]))
@@ -176,8 +187,7 @@ class MultiOCREngine:
             reader = self._get_paddle_reader(lang)
             if reader:
                 try:
-                    # In PaddleOCR 3.x/Paddlex, 'cls' might not be needed in ocr() call
-                    raw_results = reader.ocr(image)
+                    raw_results = reader.ocr(processed)
                     if raw_results and raw_results[0]:
                         for line in raw_results[0]:
                             bbox, (text, conf) = line
@@ -212,21 +222,29 @@ class MultiOCREngine:
         
         return inter_area / union_area if union_area > 0 else 0
 
-    def ensemble_extract(self, image: np.ndarray, iou_threshold: float = 0.5, lang: Optional[str] = 'ko') -> List[OCRResult]:
+    def ensemble_extract(self, 
+                        image: np.ndarray, 
+                        iou_threshold: float = 0.5, 
+                        lang: Optional[str] = None,
+                        color_hint: Optional[str] = None) -> List[OCRResult]:
         """
         Run multiple engines and combine results using IoU-based merging and voting
-        
-        Args:
-            image: Input image
-            iou_threshold: IoU threshold for merging boxes
-            lang: Language hint (ko, en, ja, zh)
-            
-        Returns:
-            Merged OCR results
         """
+        # First pass: use language hint or default to Korean
+        target_lang = lang or 'ko'
         all_raw_results = []
         for eng_name in self.default_engines:
-            all_raw_results.extend(self.extract_text(image, engine=eng_name, lang=lang))
+            all_raw_results.extend(self.extract_text(image, engine=eng_name, lang=target_lang, color_hint=color_hint))
+        
+        # Auto-detect language if not specified and re-run if necessary
+        if lang is None and all_raw_results:
+            combined_text = ' '.join(r.text for r in all_raw_results)
+            detected_lang = self.detect_language(combined_text)
+            if detected_lang != target_lang:
+                logger.info(f"Re-running OCR with detected language: {detected_lang}")
+                all_raw_results = []
+                for eng_name in self.default_engines:
+                    all_raw_results.extend(self.extract_text(image, engine=eng_name, lang=detected_lang, color_hint=color_hint))
         
         if not all_raw_results:
             return []
@@ -252,35 +270,21 @@ class MultiOCREngine:
                     cluster.append(all_raw_results[j])
                     used_indices.add(j)
             
-            # Select best text from cluster (Majority vote or highest confidence)
-            # For now, highest confidence (first in sorted cluster)
+            # Select best text from cluster (Voting based)
             best_res = cluster[0]
-            
-            # If multiple engines agree on the same text, boost confidence
             text_votes = {}
             for res in cluster:
-                text_votes[res.text] = text_votes.get(res.text, 0) + 1
+                norm_text = res.text.replace(" ", "").lower()
+                text_votes[norm_text] = text_votes.get(norm_text, 0) + 1
             
-            # Find most frequent text
-            majority_text = max(text_votes, key=text_votes.get)
-            if text_votes[majority_text] > 1:
-                # Use majority text if agreement exists
+            majority_norm = max(text_votes, key=text_votes.get)
+            if text_votes[majority_norm] > 1:
                 for res in cluster:
-                    if res.text == majority_text:
+                    if res.text.replace(" ", "").lower() == majority_norm:
                         best_res = res
-                        # Boost confidence slightly for agreement
-                        best_res.confidence = min(1.0, best_res.confidence + 0.05 * (text_votes[majority_text] - 1))
+                        best_res.confidence = min(1.0, best_res.confidence + 0.05 * (text_votes[majority_norm] - 1))
                         break
             
             merged_results.append(best_res)
             
         return merged_results
-
-if __name__ == "__main__":
-    # Quick test
-    engine = MultiOCREngine(default_engines=['tesseract'], languages=['ko', 'en'])
-    test_img = np.ones((100, 300, 3), dtype=np.uint8) * 255
-    cv2.putText(test_img, "Test Text", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,0), 2)
-    
-    res = engine.extract_text(test_img)
-    print(f"Detected: {res}")

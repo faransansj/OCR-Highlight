@@ -2,50 +2,34 @@
   "image_path": "test_results/generator_test/sample_000393_eng.png",
   "annotations": [
     {
-      "markup_type": "rectangle",
+      "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        42,
-        305,
-        30
-      ],
-      "text": "Deep neural networks have revolutionized image processing.",
-      "color": null
-    },
-    {
-      "markup_type": "rectangle",
-      "subtype": "standard",
-      "bbox": [
-        40,
-        102,
-        281,
-        30
+        35,
+        32,
+        290,
+        290
       ],
       "text": "Machine learning algorithms can detect patterns in data.",
       "color": null
     },
     {
-      "markup_type": "highlight",
-      "subtype": "blue",
+      "markup_type": "circle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        112,
-        261,
-        10
+        35,
+        89,
+        294,
+        294
       ],
-      "text": "Machine learning algorithms can detect patterns in data.",
-      "color": [
-        173,
-        216,
-        230
-      ]
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 5,
-    "num_markups": 3,
+    "num_lines": 6,
+    "num_markups": 2,
     "index": 393
   }
 }

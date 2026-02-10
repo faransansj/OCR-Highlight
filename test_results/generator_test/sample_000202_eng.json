@@ -2,41 +2,25 @@
   "image_path": "test_results/generator_test/sample_000202_eng.png",
   "annotations": [
     {
-      "markup_type": "highlight",
-      "subtype": "pink",
-      "bbox": [
-        50,
-        171,
-        265,
-        11
-      ],
-      "text": "Object detection is a fundamental task in computer vision.",
-      "color": [
-        255,
-        182,
-        193
-      ]
-    },
-    {
       "markup_type": "underline",
       "subtype": "single",
       "bbox": [
         50,
-        185,
-        265,
+        248,
+        285,
         4
       ],
-      "text": "Object detection is a fundamental task in computer vision.",
+      "text": "Deep neural networks have revolutionized image processing.",
       "color": null
     },
     {
-      "markup_type": "circle",
-      "subtype": "standard",
+      "markup_type": "strikethrough",
+      "subtype": "single",
       "bbox": [
-        40,
-        34,
-        284,
-        284
+        50,
+        172,
+        265,
+        8
       ],
       "text": "Object detection is a fundamental task in computer vision.",
       "color": null
@@ -44,8 +28,8 @@
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 3,
-    "num_markups": 3,
+    "num_lines": 7,
+    "num_markups": 2,
     "index": 202
   }
 }

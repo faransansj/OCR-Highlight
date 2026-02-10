@@ -2,13 +2,25 @@
   "image_path": "test_results/generator_test/sample_000304_jpn.png",
   "annotations": [
     {
-      "markup_type": "rectangle",
+      "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        103,
-        125,
-        27
+        35,
+        34,
+        164,
+        164
+      ],
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "color": null
+    },
+    {
+      "markup_type": "circle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        109,
+        134,
+        134
       ],
       "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
@@ -16,8 +28,8 @@
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 8,
-    "num_markups": 1,
+    "num_lines": 6,
+    "num_markups": 2,
     "index": 304
   }
 }

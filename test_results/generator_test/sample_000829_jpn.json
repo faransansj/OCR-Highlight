@@ -2,37 +2,13 @@
   "image_path": "test_results/generator_test/sample_000829_jpn.png",
   "annotations": [
     {
-      "markup_type": "strikethrough",
-      "subtype": "single",
-      "bbox": [
-        50,
-        172,
-        105,
-        8
-      ],
-      "text": "コンピュータビジョンは人工知能の分野です。",
-      "color": null
-    },
-    {
-      "markup_type": "strikethrough",
-      "subtype": "single",
-      "bbox": [
-        50,
-        172,
-        105,
-        8
-      ],
-      "text": "コンピュータビジョンは人工知能の分野です。",
-      "color": null
-    },
-    {
       "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        114,
-        124,
-        124
+        35,
+        49,
+        134,
+        134
       ],
       "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
@@ -40,8 +16,8 @@
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 5,
-    "num_markups": 3,
+    "num_lines": 3,
+    "num_markups": 1,
     "index": 829
   }
 }

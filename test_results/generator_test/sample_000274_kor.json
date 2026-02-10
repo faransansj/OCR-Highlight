@@ -2,27 +2,27 @@
   "image_path": "test_results/generator_test/sample_000274_kor.png",
   "annotations": [
     {
-      "markup_type": "circle",
+      "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        -1,
-        114,
-        114
+        35,
+        98,
+        135,
+        37
       ],
-      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
       "color": null
     },
     {
       "markup_type": "underline",
-      "subtype": "double",
+      "subtype": "single",
       "bbox": [
         50,
-        63,
-        95,
-        10
+        186,
+        134,
+        4
       ],
-      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
       "color": null
     }
   ],

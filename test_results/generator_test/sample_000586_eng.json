@@ -3,36 +3,32 @@
   "annotations": [
     {
       "markup_type": "strikethrough",
-      "subtype": "double",
+      "subtype": "single",
       "bbox": [
         50,
-        232,
-        300,
+        112,
+        226,
         8
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Computer vision is a field of artificial intelligence.",
       "color": null
     },
     {
-      "markup_type": "highlight",
-      "subtype": "blue",
+      "markup_type": "circle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        51,
-        265,
-        11
+        35,
+        71,
+        330,
+        330
       ],
-      "text": "Object detection is a fundamental task in computer vision.",
-      "color": [
-        173,
-        216,
-        230
-      ]
+      "text": "Optical character recognition enables text extraction from images.",
+      "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 5,
+    "num_lines": 7,
     "num_markups": 2,
     "index": 586
   }

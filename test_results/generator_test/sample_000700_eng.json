@@ -2,22 +2,50 @@
   "image_path": "test_results/generator_test/sample_000700_eng.png",
   "annotations": [
     {
-      "markup_type": "underline",
-      "subtype": "single",
+      "markup_type": "highlight",
+      "subtype": "green",
       "bbox": [
         50,
-        125,
-        300,
-        4
+        171,
+        226,
+        11
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Computer vision is a field of artificial intelligence.",
+      "color": [
+        144,
+        238,
+        144
+      ]
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        216,
+        295,
+        41
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        128,
+        285,
+        10
+      ],
+      "text": "Deep neural networks have revolutionized image processing.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
     "num_lines": 5,
-    "num_markups": 1,
+    "num_markups": 3,
     "index": 700
   }
 }

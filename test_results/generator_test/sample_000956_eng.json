@@ -3,21 +3,45 @@
   "annotations": [
     {
       "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        52,
+        265,
+        8
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
       "subtype": "double",
       "bbox": [
         50,
+        68,
+        265,
+        10
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
         172,
-        226,
+        300,
         8
       ],
-      "text": "Computer vision is a field of artificial intelligence.",
+      "text": "Optical character recognition enables text extraction from images.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 3,
-    "num_markups": 1,
+    "num_lines": 4,
+    "num_markups": 3,
     "index": 956
   }
 }

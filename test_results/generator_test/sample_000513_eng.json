@@ -2,50 +2,22 @@
   "image_path": "test_results/generator_test/sample_000513_eng.png",
   "annotations": [
     {
-      "markup_type": "underline",
-      "subtype": "single",
+      "markup_type": "strikethrough",
+      "subtype": "double",
       "bbox": [
         50,
-        245,
-        265,
-        4
-      ],
-      "text": "Object detection is a fundamental task in computer vision.",
-      "color": null
-    },
-    {
-      "markup_type": "circle",
-      "subtype": "standard",
-      "bbox": [
-        40,
-        -44,
-        320,
-        320
-      ],
-      "text": "Optical character recognition enables text extraction from images.",
-      "color": null
-    },
-    {
-      "markup_type": "highlight",
-      "subtype": "pink",
-      "bbox": [
-        50,
-        292,
+        53,
         261,
-        10
+        8
       ],
       "text": "Machine learning algorithms can detect patterns in data.",
-      "color": [
-        255,
-        182,
-        193
-      ]
+      "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 5,
-    "num_markups": 3,
+    "num_lines": 8,
+    "num_markups": 1,
     "index": 513
   }
 }

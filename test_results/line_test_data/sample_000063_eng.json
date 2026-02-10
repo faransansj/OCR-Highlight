@@ -6,30 +6,18 @@
       "subtype": "single",
       "bbox": [
         50,
-        185,
+        248,
         226,
         4
       ],
       "text": "Computer vision is a field of artificial intelligence.",
-      "color": null
-    },
-    {
-      "markup_type": "strikethrough",
-      "subtype": "single",
-      "bbox": [
-        50,
-        52,
-        265,
-        8
-      ],
-      "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
     "num_lines": 4,
-    "num_markups": 2,
+    "num_markups": 1,
     "index": 63
   }
 }

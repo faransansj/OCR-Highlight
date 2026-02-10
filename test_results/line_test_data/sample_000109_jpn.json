@@ -2,15 +2,15 @@
   "image_path": "test_results/line_test_data/sample_000109_jpn.png",
   "annotations": [
     {
-      "markup_type": "strikethrough",
+      "markup_type": "underline",
       "subtype": "single",
       "bbox": [
         50,
-        112,
-        140,
-        8
+        66,
+        105,
+        4
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     },
     {
@@ -28,7 +28,7 @@
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 7,
+    "num_lines": 3,
     "num_markups": 2,
     "index": 109
   }

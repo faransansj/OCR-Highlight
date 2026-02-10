@@ -6,7 +6,7 @@
       "subtype": "green",
       "bbox": [
         50,
-        113,
+        53,
         105,
         7
       ],
@@ -20,7 +20,7 @@
   ],
   "metadata": {
     "language": "kor",
-    "num_lines": 7,
+    "num_lines": 5,
     "num_markups": 1,
     "index": 626
   }

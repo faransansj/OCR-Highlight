@@ -2,13 +2,25 @@
   "image_path": "test_results/generator_test/sample_000230_kor.png",
   "annotations": [
     {
-      "markup_type": "circle",
+      "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        115,
-        122,
-        122
+        35,
+        98,
+        132,
+        37
+      ],
+      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        126,
+        102,
+        10
       ],
       "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
       "color": null
@@ -16,8 +28,8 @@
   ],
   "metadata": {
     "language": "kor",
-    "num_lines": 6,
-    "num_markups": 1,
+    "num_lines": 8,
+    "num_markups": 2,
     "index": 230
   }
 }

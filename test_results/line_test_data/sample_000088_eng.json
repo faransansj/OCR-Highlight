@@ -6,18 +6,30 @@
       "subtype": "single",
       "bbox": [
         50,
-        65,
-        261,
+        68,
+        265,
         4
       ],
-      "text": "Machine learning algorithms can detect patterns in data.",
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        68,
+        265,
+        4
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 8,
-    "num_markups": 1,
+    "num_lines": 6,
+    "num_markups": 2,
     "index": 88
   }
 }

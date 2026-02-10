@@ -5,12 +5,12 @@
       "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        76,
-        320,
-        320
+        35,
+        -12,
+        256,
+        256
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Computer vision is a field of artificial intelligence.",
       "color": null
     }
   ],

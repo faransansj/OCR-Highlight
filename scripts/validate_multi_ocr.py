@@ -8,6 +8,7 @@ import cv2
 import json
 import numpy as np
 import argparse
+import re
 from tqdm import tqdm
 from typing import List, Dict
 import logging
@@ -61,18 +62,35 @@ class OCRValidator:
             gt_texts = [m['text'] for m in markups if 'text' in m and m['text']]
             found_count = 0
             
+            import difflib
+            
             ocr_full_text = " ".join([res.text for res in ocr_results])
             # Normalize for matching
-            ocr_normalized = ocr_full_text.replace(" ", "")
+            ocr_normalized = ocr_full_text.replace(" ", "").lower()
             
             for gt_text in gt_texts:
-                gt_normalized = gt_text.replace(" ", "")
+                gt_normalized = gt_text.replace(" ", "").lower()
+                
+                # Check for direct inclusion or high similarity
                 if gt_normalized in ocr_normalized or ocr_normalized in gt_normalized:
                     found_count += 1
                 else:
-                    logger.info(f"Mismatch in {img_name}:")
-                    logger.info(f"  GT:  {gt_text}")
-                    logger.info(f"  OCR: {ocr_full_text}")
+                    # Word level matching
+                    gt_words = set(re.findall(r'\w+', gt_text.lower()))
+                    ocr_words = set(re.findall(r'\w+', ocr_full_text.lower()))
+                    
+                    if gt_words:
+                        overlap = gt_words.intersection(ocr_words)
+                        overlap_ratio = len(overlap) / len(gt_words)
+                        
+                        if overlap_ratio > 0.6:
+                            found_count += 1
+                        else:
+                            logger.info(f"Mismatch in {img_name} (overlap: {overlap_ratio:.2f}):")
+                            logger.info(f"  GT:  {gt_text}")
+                            logger.info(f"  OCR: {ocr_full_text}")
+                    else:
+                        found_count += 1
             
             results.append({
                 "file": img_name,

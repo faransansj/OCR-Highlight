@@ -5,22 +5,22 @@
       "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        163,
-        155,
-        27
+        35,
+        158,
+        170,
+        37
       ],
-      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
       "color": null
     },
     {
-      "markup_type": "rectangle",
+      "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        103,
-        160,
-        27
+        35,
+        91,
+        170,
+        170
       ],
       "text": "ディープニューラルネットワークは画像処理を革新しました。",
       "color": null
@@ -28,7 +28,7 @@
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 8,
+    "num_lines": 7,
     "num_markups": 2,
     "index": 41
   }

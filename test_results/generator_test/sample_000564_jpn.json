@@ -2,50 +2,34 @@
   "image_path": "test_results/generator_test/sample_000564_jpn.png",
   "annotations": [
     {
-      "markup_type": "circle",
+      "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        -24,
-        160,
-        160
+        35,
+        158,
+        135,
+        37
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     },
     {
-      "markup_type": "highlight",
-      "subtype": "pink",
+      "markup_type": "strikethrough",
+      "subtype": "double",
       "bbox": [
         50,
-        53,
-        140,
-        7
+        172,
+        105,
+        8
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
-      "color": [
-        255,
-        182,
-        193
-      ]
-    },
-    {
-      "markup_type": "underline",
-      "subtype": "single",
-      "bbox": [
-        50,
-        123,
-        135,
-        4
-      ],
-      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     }
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 5,
-    "num_markups": 3,
+    "num_lines": 6,
+    "num_markups": 2,
     "index": 564
   }
 }

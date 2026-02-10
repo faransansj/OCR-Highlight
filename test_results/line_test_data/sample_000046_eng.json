@@ -3,33 +3,21 @@
   "annotations": [
     {
       "markup_type": "strikethrough",
-      "subtype": "double",
-      "bbox": [
-        50,
-        112,
-        300,
-        8
-      ],
-      "text": "Optical character recognition enables text extraction from images.",
-      "color": null
-    },
-    {
-      "markup_type": "underline",
       "subtype": "single",
       "bbox": [
         50,
-        245,
-        285,
-        4
+        173,
+        261,
+        8
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
+      "text": "Machine learning algorithms can detect patterns in data.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 7,
-    "num_markups": 2,
+    "num_lines": 3,
+    "num_markups": 1,
     "index": 46
   }
 }

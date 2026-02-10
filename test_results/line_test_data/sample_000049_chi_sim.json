@@ -6,30 +6,18 @@
       "subtype": "double",
       "bbox": [
         50,
-        183,
-        80,
+        66,
+        85,
         10
       ],
-      "text": "深度神经网络彻底改变了图像处理。",
-      "color": null
-    },
-    {
-      "markup_type": "underline",
-      "subtype": "single",
-      "bbox": [
-        50,
-        123,
-        80,
-        4
-      ],
-      "text": "计算机视觉是人工智能的一个领域。",
+      "text": "机器学习算法可以检测数据中的模式。",
       "color": null
     }
   ],
   "metadata": {
     "language": "chi_sim",
-    "num_lines": 6,
-    "num_markups": 2,
+    "num_lines": 4,
+    "num_markups": 1,
     "index": 49
   }
 }

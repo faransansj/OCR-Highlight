@@ -2,21 +2,21 @@
   "image_path": "test_results/generator_test/sample_000342_eng.png",
   "annotations": [
     {
-      "markup_type": "rectangle",
-      "subtype": "standard",
+      "markup_type": "strikethrough",
+      "subtype": "single",
       "bbox": [
-        40,
-        221,
-        320,
-        31
+        50,
+        232,
+        265,
+        8
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 8,
+    "num_lines": 5,
     "num_markups": 1,
     "index": 342
   }

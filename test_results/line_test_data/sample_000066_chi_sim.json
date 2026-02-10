@@ -2,13 +2,13 @@
   "image_path": "test_results/line_test_data/sample_000066_chi_sim.png",
   "annotations": [
     {
-      "markup_type": "strikethrough",
-      "subtype": "double",
+      "markup_type": "underline",
+      "subtype": "single",
       "bbox": [
         50,
-        172,
+        186,
         80,
-        8
+        4
       ],
       "text": "计算机视觉是人工智能的一个领域。",
       "color": null
