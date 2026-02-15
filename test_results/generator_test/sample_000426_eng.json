@@ -2,38 +2,22 @@
   "image_path": "test_results/generator_test/sample_000426_eng.png",
   "annotations": [
     {
-      "markup_type": "highlight",
-      "subtype": "orange",
+      "markup_type": "strikethrough",
+      "subtype": "single",
       "bbox": [
         50,
-        111,
-        265,
-        11
+        53,
+        285,
+        8
       ],
-      "text": "Object detection is a fundamental task in computer vision.",
-      "color": [
-        255,
-        200,
-        124
-      ]
-    },
-    {
-      "markup_type": "underline",
-      "subtype": "double",
-      "bbox": [
-        50,
-        245,
-        226,
-        10
-      ],
-      "text": "Computer vision is a field of artificial intelligence.",
+      "text": "Deep neural networks have revolutionized image processing.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 4,
-    "num_markups": 2,
+    "num_lines": 5,
+    "num_markups": 1,
     "index": 426
   }
 }

@@ -2,13 +2,25 @@
   "image_path": "test_results/line_test_data/sample_000025_jpn.png",
   "annotations": [
     {
-      "markup_type": "strikethrough",
+      "markup_type": "underline",
       "subtype": "double",
       "bbox": [
         50,
-        172,
+        186,
         140,
-        8
+        10
+      ],
+      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "double",
+      "bbox": [
+        50,
+        186,
+        140,
+        10
       ],
       "text": "ディープニューラルネットワークは画像処理を革新しました。",
       "color": null
@@ -16,8 +28,8 @@
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 3,
-    "num_markups": 1,
+    "num_lines": 7,
+    "num_markups": 2,
     "index": 25
   }
 }

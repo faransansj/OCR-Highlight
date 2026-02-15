@@ -6,23 +6,23 @@
       "subtype": "double",
       "bbox": [
         50,
-        63,
-        85,
+        66,
+        80,
         10
       ],
-      "text": "机器学习算法可以检测数据中的模式。",
+      "text": "深度神经网络彻底改变了图像处理。",
       "color": null
     },
     {
-      "markup_type": "rectangle",
-      "subtype": "standard",
+      "markup_type": "underline",
+      "subtype": "single",
       "bbox": [
-        40,
-        43,
-        105,
-        27
+        50,
+        66,
+        80,
+        4
       ],
-      "text": "机器学习算法可以检测数据中的模式。",
+      "text": "深度神经网络彻底改变了图像处理。",
       "color": null
     }
   ],

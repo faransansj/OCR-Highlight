@@ -6,23 +6,23 @@
       "subtype": "single",
       "bbox": [
         50,
+        52,
+        80,
+        8
+      ],
+      "text": "计算机视觉是人工智能的一个领域。",
+      "color": null
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
         112,
         80,
         8
       ],
       "text": "深度神经网络彻底改变了图像处理。",
-      "color": null
-    },
-    {
-      "markup_type": "strikethrough",
-      "subtype": "double",
-      "bbox": [
-        50,
-        172,
-        80,
-        8
-      ],
-      "text": "计算机视觉是人工智能的一个领域。",
       "color": null
     }
   ],

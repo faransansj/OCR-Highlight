@@ -1,33 +1,33 @@
 {
   "line_detector": {
-    "precision": 0.10350134667179685,
-    "recall": 0.911864406779661,
-    "f1": 0.18590186592950936,
-    "miou": 0.6836357856968025,
-    "tp": 269,
-    "fp": 2330,
-    "fn": 26,
-    "avg_processing_time": 0.0012488079071044922,
+    "precision": 0.13479623824451412,
+    "recall": 0.7190635451505016,
+    "f1": 0.22703273495248152,
+    "miou": 0.6652772159332508,
+    "tp": 215,
+    "fp": 1380,
+    "fn": 84,
+    "avg_processing_time": 0.0012653481960296631,
     "total_samples": 200
   },
   "shape_detector": {
-    "precision": 0.11862396204033215,
-    "recall": 0.32362459546925565,
-    "f1": 0.17361111111111113,
-    "miou": 0.8192394409419648,
-    "tp": 100,
-    "fp": 743,
-    "fn": 209,
-    "avg_processing_time": 0.0017353379726409912,
+    "precision": 0.22018348623853212,
+    "recall": 0.23920265780730898,
+    "f1": 0.22929936305732485,
+    "miou": 0.7822294242838894,
+    "tp": 72,
+    "fp": 255,
+    "fn": 229,
+    "avg_processing_time": 0.0023715436458587647,
     "total_samples": 200
   },
   "data_generator": {
     "total_samples": 1000,
-    "total_time": 12.761512041091919,
-    "samples_per_second": 78.3606203387194,
+    "total_time": 12.004515171051025,
+    "samples_per_second": 83.30198977227396,
     "languages": 4,
     "markup_types": 5,
-    "avg_annotations_per_image": 2.024,
+    "avg_annotations_per_image": 1.994,
     "gt_accuracy": 1.0
   }
 }

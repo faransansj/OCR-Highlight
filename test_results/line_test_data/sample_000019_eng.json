@@ -6,17 +6,17 @@
       "subtype": "single",
       "bbox": [
         50,
-        52,
-        300,
+        232,
+        265,
         8
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 7,
+    "num_lines": 8,
     "num_markups": 1,
     "index": 19
   }

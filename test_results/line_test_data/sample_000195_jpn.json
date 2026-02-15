@@ -3,24 +3,24 @@
   "annotations": [
     {
       "markup_type": "underline",
-      "subtype": "double",
+      "subtype": "single",
       "bbox": [
         50,
-        183,
-        140,
-        10
+        66,
+        105,
+        4
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     },
     {
       "markup_type": "underline",
-      "subtype": "single",
+      "subtype": "double",
       "bbox": [
         50,
-        123,
+        126,
         135,
-        4
+        10
       ],
       "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
       "color": null

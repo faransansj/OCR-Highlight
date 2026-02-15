@@ -2,46 +2,34 @@
   "image_path": "test_results/generator_test/sample_000843_eng.png",
   "annotations": [
     {
-      "markup_type": "circle",
+      "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        76,
-        320,
-        320
-      ],
-      "text": "Optical character recognition enables text extraction from images.",
-      "color": null
-    },
-    {
-      "markup_type": "strikethrough",
-      "subtype": "single",
-      "bbox": [
-        50,
-        112,
-        265,
-        8
+        35,
+        36,
+        295,
+        41
       ],
       "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     },
     {
-      "markup_type": "rectangle",
-      "subtype": "standard",
+      "markup_type": "strikethrough",
+      "subtype": "double",
       "bbox": [
-        40,
-        221,
-        320,
-        31
+        50,
+        113,
+        285,
+        8
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Deep neural networks have revolutionized image processing.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 8,
-    "num_markups": 3,
+    "num_lines": 3,
+    "num_markups": 2,
     "index": 843
   }
 }

@@ -6,11 +6,11 @@
       "subtype": "single",
       "bbox": [
         50,
-        292,
-        300,
+        172,
+        226,
         8
       ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Computer vision is a field of artificial intelligence.",
       "color": null
     },
     {
@@ -18,17 +18,17 @@
       "subtype": "double",
       "bbox": [
         50,
-        65,
-        285,
+        188,
+        226,
         10
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
+      "text": "Computer vision is a field of artificial intelligence.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 8,
+    "num_lines": 3,
     "num_markups": 2,
     "index": 95
   }

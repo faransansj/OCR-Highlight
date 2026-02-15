@@ -2,13 +2,13 @@
   "image_path": "test_results/generator_test/sample_000937_kor.png",
   "annotations": [
     {
-      "markup_type": "rectangle",
-      "subtype": "standard",
+      "markup_type": "underline",
+      "subtype": "double",
       "bbox": [
-        40,
-        103,
-        161,
-        27
+        50,
+        306,
+        141,
+        10
       ],
       "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
       "color": null
@@ -16,7 +16,7 @@
   ],
   "metadata": {
     "language": "kor",
-    "num_lines": 3,
+    "num_lines": 8,
     "num_markups": 1,
     "index": 937
   }

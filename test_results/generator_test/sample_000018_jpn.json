@@ -3,25 +3,41 @@
   "annotations": [
     {
       "markup_type": "highlight",
-      "subtype": "orange",
+      "subtype": "pink",
       "bbox": [
         50,
-        173,
+        53,
         135,
         7
       ],
       "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
       "color": [
         255,
-        200,
-        124
+        182,
+        193
+      ]
+    },
+    {
+      "markup_type": "highlight",
+      "subtype": "yellow",
+      "bbox": [
+        50,
+        53,
+        135,
+        7
+      ],
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
+      "color": [
+        255,
+        255,
+        0
       ]
     }
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 7,
-    "num_markups": 1,
+    "num_lines": 3,
+    "num_markups": 2,
     "index": 18
   }
 }

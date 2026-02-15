@@ -5,18 +5,18 @@
       "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        162,
-        305,
-        30
+        35,
+        37,
+        291,
+        40
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
+      "text": "Machine learning algorithms can detect patterns in data.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 3,
+    "num_lines": 7,
     "num_markups": 1,
     "index": 127
   }

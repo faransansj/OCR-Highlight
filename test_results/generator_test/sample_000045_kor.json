@@ -2,54 +2,34 @@
   "image_path": "test_results/generator_test/sample_000045_kor.png",
   "annotations": [
     {
-      "markup_type": "highlight",
-      "subtype": "green",
+      "markup_type": "circle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        113,
-        102,
-        7
+        35,
+        34,
+        164,
+        164
       ],
-      "text": "객체 감지는 컴퓨터 비전의 기본 작업입니다.",
-      "color": [
-        144,
-        238,
-        144
-      ]
-    },
-    {
-      "markup_type": "highlight",
-      "subtype": "pink",
-      "bbox": [
-        50,
-        53,
-        95,
-        7
-      ],
-      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
-      "color": [
-        255,
-        182,
-        193
-      ]
+      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
+      "color": null
     },
     {
       "markup_type": "underline",
-      "subtype": "single",
+      "subtype": "double",
       "bbox": [
         50,
-        63,
-        95,
-        4
+        126,
+        134,
+        10
       ],
-      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
       "color": null
     }
   ],
   "metadata": {
     "language": "kor",
-    "num_lines": 4,
-    "num_markups": 3,
+    "num_lines": 3,
+    "num_markups": 2,
     "index": 45
   }
 }

@@ -2,15 +2,15 @@
   "image_path": "test_results/generator_test/sample_000977_eng.png",
   "annotations": [
     {
-      "markup_type": "rectangle",
-      "subtype": "standard",
+      "markup_type": "underline",
+      "subtype": "single",
       "bbox": [
-        40,
-        42,
-        305,
-        30
+        50,
+        128,
+        300,
+        4
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
+      "text": "Optical character recognition enables text extraction from images.",
       "color": null
     },
     {
@@ -18,7 +18,7 @@
       "subtype": "yellow",
       "bbox": [
         50,
-        231,
+        51,
         265,
         11
       ],
@@ -33,18 +33,18 @@
       "markup_type": "circle",
       "subtype": "standard",
       "bbox": [
-        40,
-        -23,
-        280,
-        280
+        35,
+        -91,
+        294,
+        294
       ],
-      "text": "Machine learning algorithms can detect patterns in data.",
+      "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 8,
+    "num_lines": 4,
     "num_markups": 3,
     "index": 977
   }

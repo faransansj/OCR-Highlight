@@ -2,22 +2,46 @@
   "image_path": "test_results/generator_test/sample_000289_eng.png",
   "annotations": [
     {
-      "markup_type": "circle",
+      "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        -86,
-        284,
-        284
+        35,
+        97,
+        315,
+        40
       ],
-      "text": "Object detection is a fundamental task in computer vision.",
+      "text": "Deep neural networks have revolutionized image processing.",
+      "color": null
+    },
+    {
+      "markup_type": "underline",
+      "subtype": "single",
+      "bbox": [
+        50,
+        308,
+        261,
+        4
+      ],
+      "text": "Machine learning algorithms can detect patterns in data.",
+      "color": null
+    },
+    {
+      "markup_type": "rectangle",
+      "subtype": "standard",
+      "bbox": [
+        35,
+        156,
+        256,
+        41
+      ],
+      "text": "Computer vision is a field of artificial intelligence.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 3,
-    "num_markups": 1,
+    "num_lines": 6,
+    "num_markups": 3,
     "index": 289
   }
 }

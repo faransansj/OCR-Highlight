@@ -2,33 +2,33 @@
   "image_path": "test_results/generator_test/sample_000345_kor.png",
   "annotations": [
     {
-      "markup_type": "underline",
-      "subtype": "single",
+      "markup_type": "circle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        63,
-        105,
-        4
+        35,
+        -11,
+        134,
+        134
       ],
       "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
       "color": null
     },
     {
-      "markup_type": "rectangle",
-      "subtype": "standard",
+      "markup_type": "strikethrough",
+      "subtype": "single",
       "bbox": [
-        40,
-        43,
-        125,
-        27
+        50,
+        172,
+        141,
+        8
       ],
-      "text": "딥러닝 신경망은 이미지 처리를 혁신했습니다.",
+      "text": "광학 문자 인식은 이미지에서 텍스트 추출을 가능하게 합니다.",
       "color": null
     }
   ],
   "metadata": {
     "language": "kor",
-    "num_lines": 4,
+    "num_lines": 7,
     "num_markups": 2,
     "index": 345
   }

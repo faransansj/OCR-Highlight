@@ -2,25 +2,13 @@
   "image_path": "test_results/shape_test_data/sample_000123_eng.png",
   "annotations": [
     {
-      "markup_type": "circle",
-      "subtype": "standard",
-      "bbox": [
-        40,
-        34,
-        284,
-        284
-      ],
-      "text": "Object detection is a fundamental task in computer vision.",
-      "color": null
-    },
-    {
       "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        42,
-        305,
-        30
+        35,
+        277,
+        315,
+        40
       ],
       "text": "Deep neural networks have revolutionized image processing.",
       "color": null
@@ -28,8 +16,8 @@
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 8,
-    "num_markups": 2,
+    "num_lines": 7,
+    "num_markups": 1,
     "index": 123
   }
 }

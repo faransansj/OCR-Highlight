@@ -2,31 +2,27 @@
   "image_path": "test_results/generator_test/sample_000427_kor.png",
   "annotations": [
     {
-      "markup_type": "highlight",
-      "subtype": "orange",
+      "markup_type": "strikethrough",
+      "subtype": "single",
       "bbox": [
         50,
-        113,
-        134,
-        7
+        232,
+        95,
+        8
       ],
-      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
-      "color": [
-        255,
-        200,
-        124
-      ]
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
+      "color": null
     },
     {
       "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        103,
-        154,
-        27
+        35,
+        218,
+        125,
+        37
       ],
-      "text": "머신러닝 알고리즘은 데이터의 패턴을 감지할 수 있습니다.",
+      "text": "컴퓨터 비전은 인공지능의 한 분야입니다.",
       "color": null
     }
   ],

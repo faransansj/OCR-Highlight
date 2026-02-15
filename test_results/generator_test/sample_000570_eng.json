@@ -3,20 +3,20 @@
   "annotations": [
     {
       "markup_type": "strikethrough",
-      "subtype": "double",
+      "subtype": "single",
       "bbox": [
         50,
-        173,
-        285,
+        172,
+        265,
         8
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
+      "text": "Object detection is a fundamental task in computer vision.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 5,
+    "num_lines": 8,
     "num_markups": 1,
     "index": 570
   }

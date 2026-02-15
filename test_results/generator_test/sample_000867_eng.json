@@ -2,50 +2,38 @@
   "image_path": "test_results/generator_test/sample_000867_eng.png",
   "annotations": [
     {
-      "markup_type": "highlight",
-      "subtype": "pink",
-      "bbox": [
-        50,
-        112,
-        285,
-        10
-      ],
-      "text": "Deep neural networks have revolutionized image processing.",
-      "color": [
-        255,
-        182,
-        193
-      ]
-    },
-    {
       "markup_type": "strikethrough",
       "subtype": "single",
       "bbox": [
         50,
-        113,
-        285,
+        112,
+        300,
         8
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
+      "text": "Optical character recognition enables text extraction from images.",
       "color": null
     },
     {
-      "markup_type": "circle",
-      "subtype": "standard",
+      "markup_type": "highlight",
+      "subtype": "green",
       "bbox": [
-        40,
-        -35,
-        304,
-        304
+        50,
+        231,
+        265,
+        11
       ],
-      "text": "Deep neural networks have revolutionized image processing.",
-      "color": null
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": [
+        144,
+        238,
+        144
+      ]
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 3,
-    "num_markups": 3,
+    "num_lines": 7,
+    "num_markups": 2,
     "index": 867
   }
 }

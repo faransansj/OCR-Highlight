@@ -5,18 +5,18 @@
       "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        163,
-        160,
-        27
+        35,
+        38,
+        135,
+        37
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "text": "コンピュータビジョンは人工知能の分野です。",
       "color": null
     }
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 7,
+    "num_lines": 4,
     "num_markups": 1,
     "index": 192
   }

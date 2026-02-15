@@ -6,17 +6,17 @@
       "subtype": "double",
       "bbox": [
         50,
-        183,
-        140,
+        186,
+        135,
         10
       ],
-      "text": "ディープニューラルネットワークは画像処理を革新しました。",
+      "text": "機械学習アルゴリズムはデータのパターンを検出できます。",
       "color": null
     }
   ],
   "metadata": {
     "language": "jpn",
-    "num_lines": 8,
+    "num_lines": 7,
     "num_markups": 1,
     "index": 67
   }

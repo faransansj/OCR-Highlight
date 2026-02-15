@@ -5,22 +5,22 @@
       "markup_type": "rectangle",
       "subtype": "standard",
       "bbox": [
-        40,
-        43,
-        105,
-        27
+        35,
+        38,
+        110,
+        37
       ],
-      "text": "机器学习算法可以检测数据中的模式。",
+      "text": "深度神经网络彻底改变了图像处理。",
       "color": null
     },
     {
-      "markup_type": "circle",
-      "subtype": "standard",
+      "markup_type": "underline",
+      "subtype": "single",
       "bbox": [
-        40,
-        66,
-        100,
-        100
+        50,
+        126,
+        80,
+        4
       ],
       "text": "计算机视觉是人工智能的一个领域。",
       "color": null
@@ -28,7 +28,7 @@
   ],
   "metadata": {
     "language": "chi_sim",
-    "num_lines": 3,
+    "num_lines": 8,
     "num_markups": 2,
     "index": 73
   }

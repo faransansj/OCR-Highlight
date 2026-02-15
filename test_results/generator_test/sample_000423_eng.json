@@ -2,31 +2,15 @@
   "image_path": "test_results/generator_test/sample_000423_eng.png",
   "annotations": [
     {
-      "markup_type": "highlight",
-      "subtype": "green",
+      "markup_type": "rectangle",
+      "subtype": "standard",
       "bbox": [
-        50,
-        51,
-        300,
-        11
+        35,
+        157,
+        291,
+        40
       ],
-      "text": "Optical character recognition enables text extraction from images.",
-      "color": [
-        144,
-        238,
-        144
-      ]
-    },
-    {
-      "markup_type": "underline",
-      "subtype": "single",
-      "bbox": [
-        50,
-        65,
-        300,
-        4
-      ],
-      "text": "Optical character recognition enables text extraction from images.",
+      "text": "Machine learning algorithms can detect patterns in data.",
       "color": null
     },
     {
@@ -34,21 +18,33 @@
       "subtype": "blue",
       "bbox": [
         50,
-        172,
-        261,
+        52,
+        285,
         10
       ],
-      "text": "Machine learning algorithms can detect patterns in data.",
+      "text": "Deep neural networks have revolutionized image processing.",
       "color": [
         173,
         216,
         230
       ]
+    },
+    {
+      "markup_type": "strikethrough",
+      "subtype": "single",
+      "bbox": [
+        50,
+        292,
+        265,
+        8
+      ],
+      "text": "Object detection is a fundamental task in computer vision.",
+      "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 3,
+    "num_lines": 8,
     "num_markups": 3,
     "index": 423
   }

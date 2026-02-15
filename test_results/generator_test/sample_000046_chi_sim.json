@@ -2,34 +2,26 @@
   "image_path": "test_results/generator_test/sample_000046_chi_sim.png",
   "annotations": [
     {
-      "markup_type": "circle",
-      "subtype": "standard",
+      "markup_type": "highlight",
+      "subtype": "yellow",
       "bbox": [
-        40,
-        126,
-        100,
-        100
+        50,
+        113,
+        85,
+        7
       ],
-      "text": "深度神经网络彻底改变了图像处理。",
-      "color": null
-    },
-    {
-      "markup_type": "circle",
-      "subtype": "standard",
-      "bbox": [
-        40,
-        6,
-        100,
-        100
-      ],
-      "text": "计算机视觉是人工智能的一个领域。",
-      "color": null
+      "text": "机器学习算法可以检测数据中的模式。",
+      "color": [
+        255,
+        255,
+        0
+      ]
     }
   ],
   "metadata": {
     "language": "chi_sim",
-    "num_lines": 5,
-    "num_markups": 2,
+    "num_lines": 4,
+    "num_markups": 1,
     "index": 46
   }
 }

@@ -2,21 +2,21 @@
   "image_path": "test_results/generator_test/sample_000192_eng.png",
   "annotations": [
     {
-      "markup_type": "circle",
-      "subtype": "standard",
+      "markup_type": "underline",
+      "subtype": "double",
       "bbox": [
-        40,
-        -23,
-        280,
-        280
+        50,
+        308,
+        300,
+        10
       ],
-      "text": "Machine learning algorithms can detect patterns in data.",
+      "text": "Optical character recognition enables text extraction from images.",
       "color": null
     }
   ],
   "metadata": {
     "language": "eng",
-    "num_lines": 7,
+    "num_lines": 6,
     "num_markups": 1,
     "index": 192
   }
