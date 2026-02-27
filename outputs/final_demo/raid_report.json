@@ -1,0 +1,24 @@
+[
+  {
+    "artifact": "marked_docvqa_0000.png",
+    "detections": 4,
+    "extracted_texts": [
+      "FIC"
+    ]
+  },
+  {
+    "artifact": "marked_docvqa_0001.png",
+    "detections": 7,
+    "extracted_texts": [
+      "8SRSR 8 X 3",
+      "8238",
+      "Tri^nn I 07. On",
+      "8"
+    ]
+  },
+  {
+    "artifact": "marked_docvqa_0002.png",
+    "detections": 6,
+    "extracted_texts": []
+  }
+]

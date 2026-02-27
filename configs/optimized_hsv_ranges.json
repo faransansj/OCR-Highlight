@@ -1,0 +1,9 @@
+{
+  "hsv_ranges": {},
+  "kernel_size": [
+    5,
+    5
+  ],
+  "min_area": 150,
+  "morph_iterations": 1
+}

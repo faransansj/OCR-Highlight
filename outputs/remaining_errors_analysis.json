@@ -1,0 +1,277 @@
+{
+  "total_errors": 21,
+  "total_chars": 73,
+  "current_cer": 0.2876712328767123,
+  "target_errors": 15,
+  "errors_to_fix": 6,
+  "error_by_type": {
+    "substitutions": 6,
+    "insertions": 6,
+    "deletions": 3
+  },
+  "error_by_confidence": {
+    "medium_conf_70-85": 5,
+    "low_conf_<70": 4,
+    "high_conf_>85": 2
+  },
+  "error_by_color": {
+    "yellow": 2,
+    "green": 9
+  },
+  "top_10_errors": [
+    {
+      "image": "validation_0096_orig.png",
+      "gt": "비전은",
+      "pred": "(비전은비전",
+      "cer": 1.0,
+      "confidence": 72.32398834228516,
+      "color": "green",
+      "insertions": 3,
+      "deletions": 0,
+      "substitutions": 0,
+      "bbox_iou": 0.625
+    },
+    {
+      "image": "validation_0132_orig.png",
+      "gt": "전처리는",
+      "pred": "처리논저",
+      "cer": 0.75,
+      "confidence": 75.52117655580413,
+      "color": "yellow",
+      "insertions": 1,
+      "deletions": 1,
+      "substitutions": 1,
+      "bbox_iou": 0.5404411764705882
+    },
+    {
+      "image": "validation_0018_orig.png",
+      "gt": "객체의",
+      "pred": "의객체",
+      "cer": 0.6666666666666666,
+      "confidence": 65.56666666666666,
+      "color": "green",
+      "insertions": 1,
+      "deletions": 1,
+      "substitutions": 0,
+      "bbox_iou": 0.8288288288288288
+    },
+    {
+      "image": "validation_0018_orig.png",
+      "gt": "박스는",
+      "pred": "박스는는박",
+      "cer": 0.6666666666666666,
+      "confidence": 70.95876942194415,
+      "color": "green",
+      "insertions": 2,
+      "deletions": 0,
+      "substitutions": 0,
+      "bbox_iou": 0.8232848232848233
+    },
+    {
+      "image": "validation_0093_orig.png",
+      "gt": "딥러닝",
+      "pred": "덥러님",
+      "cer": 0.6666666666666666,
+      "confidence": 35.821136311542794,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 2,
+      "bbox_iou": 0.6382978723404256
+    },
+    {
+      "image": "validation_0144_orig.png",
+      "gt": "딥러닝",
+      "pred": "덥러딩",
+      "cer": 0.6666666666666666,
+      "confidence": 43.00589610967737,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 2,
+      "bbox_iou": 0.7661290322580645
+    },
+    {
+      "image": "validation_0117_orig.png",
+      "gt": "형광펜으로",
+      "pred": "형광편으로형광",
+      "cer": 0.6,
+      "confidence": 73.5994863022249,
+      "color": "green",
+      "insertions": 2,
+      "deletions": 0,
+      "substitutions": 1,
+      "bbox_iou": 0.7039337474120083
+    },
+    {
+      "image": "validation_0000_orig.png",
+      "gt": "통해",
+      "pred": "토해",
+      "cer": 0.5,
+      "confidence": 74.39918958089564,
+      "color": "yellow",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 1,
+      "bbox_iou": 0.5955882352941176
+    },
+    {
+      "image": "validation_0057_orig.png",
+      "gt": "기술의",
+      "pred": "'기술의",
+      "cer": 0.3333333333333333,
+      "confidence": 99.77191686630249,
+      "color": "green",
+      "insertions": 1,
+      "deletions": 0,
+      "substitutions": 0,
+      "bbox_iou": 0.6805970149253732
+    },
+    {
+      "image": "validation_0111_orig.png",
+      "gt": "HSV,",
+      "pred": "HSV",
+      "cer": 0.25,
+      "confidence": 129.99785264649321,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 1,
+      "substitutions": 0,
+      "bbox_iou": 0.6494545454545455
+    }
+  ],
+  "all_errors": [
+    {
+      "image": "validation_0000_orig.png",
+      "gt": "통해",
+      "pred": "토해",
+      "cer": 0.5,
+      "confidence": 74.39918958089564,
+      "color": "yellow",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 1,
+      "bbox_iou": 0.5955882352941176
+    },
+    {
+      "image": "validation_0018_orig.png",
+      "gt": "객체의",
+      "pred": "의객체",
+      "cer": 0.6666666666666666,
+      "confidence": 65.56666666666666,
+      "color": "green",
+      "insertions": 1,
+      "deletions": 1,
+      "substitutions": 0,
+      "bbox_iou": 0.8288288288288288
+    },
+    {
+      "image": "validation_0018_orig.png",
+      "gt": "박스는",
+      "pred": "박스는는박",
+      "cer": 0.6666666666666666,
+      "confidence": 70.95876942194415,
+      "color": "green",
+      "insertions": 2,
+      "deletions": 0,
+      "substitutions": 0,
+      "bbox_iou": 0.8232848232848233
+    },
+    {
+      "image": "validation_0027_orig.png",
+      "gt": "OpenCV는",
+      "pred": "OpencV는",
+      "cer": 0.14285714285714285,
+      "confidence": 38.46768635566549,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 1,
+      "bbox_iou": 0.8491133152990682
+    },
+    {
+      "image": "validation_0057_orig.png",
+      "gt": "기술의",
+      "pred": "'기술의",
+      "cer": 0.3333333333333333,
+      "confidence": 99.77191686630249,
+      "color": "green",
+      "insertions": 1,
+      "deletions": 0,
+      "substitutions": 0,
+      "bbox_iou": 0.6805970149253732
+    },
+    {
+      "image": "validation_0093_orig.png",
+      "gt": "딥러닝",
+      "pred": "덥러님",
+      "cer": 0.6666666666666666,
+      "confidence": 35.821136311542794,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 2,
+      "bbox_iou": 0.6382978723404256
+    },
+    {
+      "image": "validation_0096_orig.png",
+      "gt": "비전은",
+      "pred": "(비전은비전",
+      "cer": 1.0,
+      "confidence": 72.32398834228516,
+      "color": "green",
+      "insertions": 3,
+      "deletions": 0,
+      "substitutions": 0,
+      "bbox_iou": 0.625
+    },
+    {
+      "image": "validation_0111_orig.png",
+      "gt": "HSV,",
+      "pred": "HSV",
+      "cer": 0.25,
+      "confidence": 129.99785264649321,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 1,
+      "substitutions": 0,
+      "bbox_iou": 0.6494545454545455
+    },
+    {
+      "image": "validation_0117_orig.png",
+      "gt": "형광펜으로",
+      "pred": "형광편으로형광",
+      "cer": 0.6,
+      "confidence": 73.5994863022249,
+      "color": "green",
+      "insertions": 2,
+      "deletions": 0,
+      "substitutions": 1,
+      "bbox_iou": 0.7039337474120083
+    },
+    {
+      "image": "validation_0132_orig.png",
+      "gt": "전처리는",
+      "pred": "처리논저",
+      "cer": 0.75,
+      "confidence": 75.52117655580413,
+      "color": "yellow",
+      "insertions": 1,
+      "deletions": 1,
+      "substitutions": 1,
+      "bbox_iou": 0.5404411764705882
+    },
+    {
+      "image": "validation_0144_orig.png",
+      "gt": "딥러닝",
+      "pred": "덥러딩",
+      "cer": 0.6666666666666666,
+      "confidence": 43.00589610967737,
+      "color": "green",
+      "insertions": 0,
+      "deletions": 0,
+      "substitutions": 2,
+      "bbox_iou": 0.7661290322580645
+    }
+  ]
+}

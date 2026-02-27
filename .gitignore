@@ -1,0 +1,34 @@
+# Dataset & Weights (Too heavy for Git)
+data/
+test_results/
+*.pt
+*.zip
+*.tar.gz
+*.pth
+
+# Training logs
+training.log
+training_cpu.log
+training_preprocessed.log
+
+# YOLO runs directory
+runs/
+
+# Pretrained weights
+#yolo*.pt
+
+# Cache files
+*.cache
+
+# Failed training scripts (keep only MPS version)
+train_yolo_cpu_final.py
+train_yolo_gfx1100.py
+train_yolo_gpu.py
+train_yolo_gpu_fix.py
+train_yolo_gpu_working.py
+
+# Preprocessed dataset (too large for git)
+data/yolo_dataset_preprocessed/
+
+# Final model (add separately if needed)
+#final_model/*.pt

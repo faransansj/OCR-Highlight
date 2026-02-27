@@ -1,0 +1,41 @@
+{
+  "iso_standards": "ISO 5776 (Graphic technology — Symbols for text proof correction)",
+  "categories": [
+    {
+      "name": "Deletions & Substitutions",
+      "symbols": [
+        { "name": "Delete", "description": "Strikes through text to be removed.", "yolo_class": "strikethrough" },
+        { "name": "Substitute", "description": "Strikes through and indicates replacement in margin.", "yolo_class": "substitute" }
+      ]
+    },
+    {
+      "name": "Insertions",
+      "symbols": [
+        { "name": "Caret", "description": "Insertion of character, word, or symbol.", "yolo_class": "caret_insert" },
+        { "name": "Insert Space", "description": "Indicates where a space should be added.", "yolo_class": "space_insert" }
+      ]
+    },
+    {
+      "name": "Rearrangements",
+      "symbols": [
+        { "name": "Transpose", "description": "Swaps the order of adjacent characters or words.", "yolo_class": "transpose" },
+        { "name": "Move", "description": "Arrows indicating moving a block to another position.", "yolo_class": "move_arrow" }
+      ]
+    },
+    {
+      "name": "Spacing & Alignment",
+      "symbols": [
+        { "name": "Close Up", "description": "Removes space between characters or words.", "yolo_class": "close_up" },
+        { "name": "Align", "description": "Horizontal or vertical lines for alignment correction.", "yolo_class": "align_line" }
+      ]
+    },
+    {
+      "name": "Formatting",
+      "symbols": [
+        { "name": "Highlight", "description": "Focus or emphasis on a specific region.", "yolo_class": "highlight" },
+        { "name": "Underline", "description": "Emphasis or specific formatting request.", "yolo_class": "underline" },
+        { "name": "Enclosure", "description": "Circle or box around important terms.", "yolo_class": "enclosure" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "highlight_detection": {
+    "miou": 0.7280262910646491,
+    "precision": 0.84375,
+    "recall": 0.675,
+    "f1_score": 0.75
+  },
+  "ocr": {
+    "cer": 0.15479876160990713,
+    "total_characters": 323,
+    "total_errors": 50,
+    "accuracy": 84.52012383900929
+  },
+  "num_samples": 50
+}
